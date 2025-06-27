@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Asaan-Qarz-FE/static/css/main.147922fd.css",
-    "main.js": "/Asaan-Qarz-FE/static/js/main.8a5ebd75.js",
+    "main.js": "/Asaan-Qarz-FE/static/js/main.f30c1e8f.js",
     "static/js/453.e5ea282d.chunk.js": "/Asaan-Qarz-FE/static/js/453.e5ea282d.chunk.js",
     "static/media/coverImage.jpg": "/Asaan-Qarz-FE/static/media/coverImage.4cdf269b1d25cba913d8.jpg",
     "static/media/centerImage.png": "/Asaan-Qarz-FE/static/media/centerImage.92f1980c1ac1d2fbab4d.png",
@@ -36,11 +36,11 @@
     "static/media/Logo.png": "/Asaan-Qarz-FE/static/media/Logo.669f267b4b0e41e9c93b.png",
     "index.html": "/Asaan-Qarz-FE/index.html",
     "main.147922fd.css.map": "/Asaan-Qarz-FE/static/css/main.147922fd.css.map",
-    "main.8a5ebd75.js.map": "/Asaan-Qarz-FE/static/js/main.8a5ebd75.js.map",
+    "main.f30c1e8f.js.map": "/Asaan-Qarz-FE/static/js/main.f30c1e8f.js.map",
     "453.e5ea282d.chunk.js.map": "/Asaan-Qarz-FE/static/js/453.e5ea282d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.147922fd.css",
-    "static/js/main.8a5ebd75.js"
+    "static/js/main.f30c1e8f.js"
   ]
 }
