@@ -1,28 +1,28 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import myImg from '../Images/Loan Scheme.jpg'
-import asaanQarz11 from '../Images/asan qarz11.jpg'
-import asaanQarz12 from '../Images/asan qarz13.jpg'
+import asaanQarz11 from '../Images/newAkhuwat16.jpg'
+import asaanQarz12 from '../Images/newAkhuwat17.jpg'
 
 const AkhuwatBusinessLoan = () => {
   return (
     <div className="container-fluid px-4 py-4" style={{ maxWidth: "1100px", margin: "0 auto", fontSize: '22px' }}>
       {/* Header Section */}
       <div className="text-center mb-5">
-        <h1 className="fw-bold mb-3">Asaan Qarz Business Loan: Giving Pakistani Business Owners the Tools They Need</h1>
+        <h1 className="fw-bold mb-3">Akhuwat Foundation Business Loan: Giving Pakistani Business Owners the Tools They Need</h1>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
-        Pakistani business owners who want to start or grow their companies can get the Asaan Qarz Business Loan, which gives them the money they need. Starting a business or making it bigger can be hard, especially if you don't have enough money. With its interest-free loan plan, Asaan Qarz provides a useful option for people who can't get loans from regular banks. The Foundation's goal is to help business owners become financially independent while also helping the economy of Pakistan grow.
+        Pakistani business owners who want to start or grow their companies can get the Akhuwat Foundation Business Loan, which gives them the money they need. Starting a business or making it bigger can be hard, especially if you don't have enough money. With its interest-free loan plan, Akhuwat Foundation provides a useful option for people who can't get loans from regular banks. The Foundation's goal is to help business owners become financially independent while also helping the economy of Pakistan grow.
         </p>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
           
-Asaan Qarz's loan program can help you reach your business goals, whether you want to open a shop, start a service-based business, or invest in small-scale manufacturing.
+Akhuwat Foundation's loan program can help you reach your business goals, whether you want to open a shop, start a service-based business, or invest in small-scale manufacturing.
         </p>
       </div>
 
       {/* Benefits Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Asaan Qarz?</h2>
+          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Akhuwat Foundation?</h2>
           <p>Loans with no interest – You can grow your business without having to worry about high interest rates, which often slow things down.</p>
           <ul>
             <li><strong>No Collateral Needed:</strong> Get access to money without putting up personal property as collateral. This makes borrowing safer and easier.</li>
@@ -50,7 +50,7 @@ Asaan Qarz's loan program can help you reach your business goals, whether you wa
       {/* How to Apply Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">How to Get an Asaan Qarz Business Loan in 3 Easy Steps Check Your Eligibility</h2>
+          <h2 className="fw-bold mb-3">How to Get an Akhuwat Foundation Business Loan in 3 Easy Steps Check Your Eligibility</h2>
           <p>
           Make sure you meet the most basic requirements to apply.
           </p>
@@ -80,9 +80,9 @@ Asaan Qarz's loan program can help you reach your business goals, whether you wa
       {/* Additional Information Section */}
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Asaan Qarz?</h2>
+          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Akhuwat Foundation?</h2>
           <p>
-            Asaan Qarz Business Loans are designed to help business owners at all stages, from starting out to growing their current business. Asaan Qarz removes financial obstacles by providing interest-free loans without needing any security. This gives people the power to fully manage their own financial journey.
+            Akhuwat Foundation Business Loans are designed to help business owners at all stages, from starting out to growing their current business. Akhuwat Foundation removes financial obstacles by providing interest-free loans without needing any security. This gives people the power to fully manage their own financial journey.
           </p>
           <p>
             This project not only helps businesses grow, but it also helps communities by making jobs available, boosting local economies, and making people's lives better all over Pakistan.
@@ -93,9 +93,9 @@ Asaan Qarz's loan program can help you reach your business goals, whether you wa
       {/* Conclusion Section */}
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="fw-bold mb-3">Join the movement for Asaan Qarz right now!</h2>
+          <h2 className="fw-bold mb-3">Join the movement for Akhuwat Foundation right now!</h2>
           <p>
-            Are you ready to grow your business? With Asaan Qarz Business Loans, you can make your business dreams come true. Open an account at the Asaan Qarz store closest to you or apply online right now to start your path to success.
+            Are you ready to grow your business? With Akhuwat Foundation Business Loans, you can make your business dreams come true. Open an account at the Akhuwat Foundation store closest to you or apply online right now to start your path to success.
           </p>
         </div>
       </div>

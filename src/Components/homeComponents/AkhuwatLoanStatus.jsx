@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import AppContext from "../context/appContext";
-import asaanQarz22 from '../../Images/asan qarz22.jpg'
+import Akhuwat13 from '../../Images/newAkhuwat13.jpg'
 const AkhuwatLoanStatus = () => {
   const { fetchUserByCnic } = useContext(AppContext);
   const [cnicNumber, setCnicNumber] = useState("");
@@ -32,7 +32,7 @@ const AkhuwatLoanStatus = () => {
     setLoading(false);
     modalInstance?.show();
   };
-  const color = "#0195ff"
+  const color = "#108515"
 
   return (
     <div className="container py-5" id='loan-status'>
@@ -41,9 +41,9 @@ const AkhuwatLoanStatus = () => {
         <div className="col-md-6 mb-4">
           <div className="shadow rounded p-4 bg-white">
             <img
-              src={asaanQarz22}
+              src={Akhuwat13}
               style={{height:"150px",objectFit:'cover'}}
-              alt="Asaan Qarz Loan Banner"
+              alt="Akhuwat Foundation Loan Banner"
               className="card-img-top rounded mb-3"
             />
             <form onSubmit={handleSubmit}>
@@ -75,7 +75,7 @@ const AkhuwatLoanStatus = () => {
         <div className="col-md-6 p-5">
           <h2 className="fw-bold mb-3">You can check on your loan at any time.</h2>
           <p>
-            Entering your CNIC number is all it takes to see where your Asaan Qarz loan application stands right now. You can use the Asaan Qarz Loan WhatsApp Helpline to get help or ask questions.
+            Entering your CNIC number is all it takes to see where your Akhuwat Foundation loan application stands right now. You can use the Akhuwat Foundation Loan WhatsApp Helpline to get help or ask questions.
           </p>
         </div>
       </div>

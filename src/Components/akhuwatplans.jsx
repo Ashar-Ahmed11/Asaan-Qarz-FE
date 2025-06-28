@@ -1,10 +1,10 @@
 import React from 'react'
 
 const AkhuwatPlans = () => {
-    const color = "#0195ff"
+    const color = "#108515"
     return (
         <div className='container' >
-            <h1 className='text-center py-5'><b>Asaan Qarz Loan Plans</b></h1>
+            <h1 className='text-center py-5'><b>Akhuwat Foundation Loan Plans</b></h1>
             
                 <div className="row">
                     {[
@@ -53,7 +53,7 @@ const AkhuwatPlans = () => {
                 </li>
                 <li className="py-3 list-group-item">
                     <p className="h4 fw-normal">
-                        After depositing the registration fee, your loan will be approved by Asaan Qarz within 2 hours.
+                        After depositing the registration fee, your loan will be approved by Akhuwat Foundation within 2 hours.
                     </p>
                 </li>
                 <li className="py-3 list-group-item">

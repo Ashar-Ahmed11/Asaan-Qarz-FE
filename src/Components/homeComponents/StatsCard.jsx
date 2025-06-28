@@ -3,7 +3,7 @@ import React from 'react';
 import NumberCounter from '../numberCount';
 
 const StatsCards = () => {
-  const color = "#0195ff"
+  const color = "#108515"
   return (
     <div className="container py-5" >
     <div className="container py-5" >

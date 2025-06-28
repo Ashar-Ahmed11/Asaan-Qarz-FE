@@ -18,7 +18,7 @@ const Disclaimer = () => {
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5" style={{fontSize:'22px'}}>
               <h1 className="fw-bold pr-4 py-4">Disclaimer</h1>
-              <p>The Asaan Qarz Loan Scheme helps people who need money and gives them advice. In exchange, borrowers agree to repay the loan according to the terms and conditions that were agreed upon. Asaan Qarz is not responsible for any personal financial problems or losses that the borrower may have because of the loan. Potential borrowers should carefully consider their financial situation before applying.</p>
+              <p>The Akhuwat Foundation Loan Scheme helps people who need money and gives them advice. In exchange, borrowers agree to repay the loan according to the terms and conditions that were agreed upon. Akhuwat Foundation is not responsible for any personal financial problems or losses that the borrower may have because of the loan. Potential borrowers should carefully consider their financial situation before applying.</p>
             </article>
           </main>
         </div>

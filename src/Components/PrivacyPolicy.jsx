@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
-import asaanQarz18 from '../Images/asan qarz18.jpg'
+import asaanQarz18 from '../Images/newAkhuwat24.jpg'
 
 const PrivacyPolicy = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
@@ -21,10 +21,10 @@ const PrivacyPolicy = () => {
               <h1 className="fw-bold mb-4">Privacy Policy</h1>
 
               <p className="mb-4">
-              At Asaan Qarz Loan, we deeply value the trust you place in us by sharing your personal information. Protecting your privacy is our highest priority, and we are committed to maintaining the strictest standards of security and confidentiality. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our services or visit our website. By doing so, you agree to the terms outlined in this policy.
+              At Akhuwat Foundation Loan, we deeply value the trust you place in us by sharing your personal information. Protecting your privacy is our highest priority, and we are committed to maintaining the strictest standards of security and confidentiality. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you use our services or visit our website. By doing so, you agree to the terms outlined in this policy.
               </p>
               {/* <p className="mb-4">
-                You agree to the terms and conditions in this Privacy Policy when you use Asaan Qarz Loan's services or visit its website.
+                You agree to the terms and conditions in this Privacy Policy when you use Akhuwat Foundation Loan's services or visit its website.
               </p> */}
               <div className="my-5 text-center">
                 <img
@@ -173,7 +173,7 @@ const PrivacyPolicy = () => {
 
               <ul className="fw-light mx-5">
                 <li>
-                  Send an email to support@Asaan Qarzloanschemepk.com.
+                  Send an email to support@Akhuwat Foundationloanschemepk.com.
                 </li>
                 <li>
                 Call +92 0346 0760718

@@ -13,6 +13,7 @@ import AkhuwatImages2 from './homeComponents/AkhuwatImages2'
 import AkhuwatImages3 from './homeComponents/AkhuwatImages3'
 import StatsCards from './homeComponents/StatsCard'
 import AkhuwatPlans from './akhuwatplans'
+import ApplyLoanForm from './homeComponents/ApplyLoanForm'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <AkhuwatImages2 />
       <Cards />
       <AkhuwatImages3 />
+      <ApplyLoanForm/>
       <AkhuwatPlans/>
    <WhyChooseAkhuwat />
    <AkhuwatLoanStatus/>

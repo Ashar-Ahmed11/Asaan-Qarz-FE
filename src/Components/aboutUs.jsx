@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import Infographic from '../Images/Infograph.png'
-// import aboutUsImg from '../Images/Asaan Qarz loan service.jpg'
-import asaanQarz15 from '../Images/asan qarz15.jpg'
-import asaanQarz16 from '../Images/asan qarz16.jpg'
-import asaanQarz17 from '../Images/asan qarz17.jpg'
+// import aboutUsImg from '../Images/Akhuwat Foundation loan service.jpg'
+import asaanQarz15 from '../Images/newAkhuwat20.jpg'
+import asaanQarz16 from '../Images/newAkhuwat21.jpg'
+import asaanQarz17 from '../Images/newAkhuwat22.jpg'
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
@@ -26,12 +26,12 @@ const AboutUs = () => {
               <h1 className="fw-bold mb-4">About Us</h1>
 
               <p className="mb-4">
-              Welcome to Asaan Qarz Loan, your reliable source for easy access to loans in Pakistan. Asaan Qarz was started in 2023 by Dr. Amjad Saqib with a clear goal: to give people across the country cheap loans with low interest rates. There is help for you whether you are trying to reach personal goals or grow your business. Our promise is to give you clear, reliable, and effective financial solutions that are made to fit your specific wants.
+              Welcome to Akhuwat Foundation Loan, your reliable source for easy access to loans in Pakistan. Akhuwat Foundation was started in 2023 by Dr. Amjad Saqib with a clear goal: to give people across the country cheap loans with low interest rates. There is help for you whether you are trying to reach personal goals or grow your business. Our promise is to give you clear, reliable, and effective financial solutions that are made to fit your specific wants.
               </p>
               <div className="my-5 text-center p-4">
                 <img 
                   src={asaanQarz15}
-                  alt="Asaan Qarz Loan Logo" 
+                  alt="Akhuwat Foundation Loan Logo" 
                   className="img-fluid rounded shadow-sm mw-100 h-100 card-img-top" 
                 />
               </div>
@@ -39,7 +39,7 @@ const AboutUs = () => {
               <h2 className="fw-bold mt-5 mb-4">What We Do</h2>
 
               <p className="mb-4">
-              At Asaan Qarz Loan, our only goal is to help people who need money the most. We strongly think that everyone, no matter how much money they make, should be able to get loans that they can afford. We give our clients the power to take charge of their financial future and improve their quality of life by giving them low-interest loans with flexible payment choices.
+              At Akhuwat Foundation Loan, our only goal is to help people who need money the most. We strongly think that everyone, no matter how much money they make, should be able to get loans that they can afford. We give our clients the power to take charge of their financial future and improve their quality of life by giving them low-interest loans with flexible payment choices.
 
               </p>
 
@@ -47,7 +47,7 @@ const AboutUs = () => {
                 We understand how hard it can be to get a loan, especially for people in Pakistan who are worried about their money. Because of this, we are dedicated to giving services that are simple, quick, and clear. Our goal is to get rid of obstacles by giving each customer custom solutions that meet their specific needs.
               </p>
 
-              <h2 className="fw-bold mt-5 mb-4">Why Asaan Qarz Loan is the Best Option?</h2>
+              <h2 className="fw-bold mt-5 mb-4">Why Akhuwat Foundation Loan is the Best Option?</h2>
 
               <ol className="fw-light mx-5">
                 <li>Quick Process for Approving</li>
@@ -63,18 +63,18 @@ const AboutUs = () => {
               <h2 className="fw-bold mt-5 mb-4">Dr. Amjad Saqib is our head founder.</h2>
 
               <p className="mb-4">
-              Dr. Amjad Saqib is a well-known social thinker and philanthropist who came up with the idea for Asaan Qarz Loan. Because he has always cared about financial inclusion and giving people power in their communities, he has been a strong supporter of social aid programs in Pakistan's underserved areas. Asaan Qarz Loan has become a beacon of hope and opportunity under his guidance, giving thousands of people across the country long-term financial solutions.
+              Dr. Amjad Saqib is a well-known social thinker and philanthropist who came up with the idea for Akhuwat Foundation Loan. Because he has always cared about financial inclusion and giving people power in their communities, he has been a strong supporter of social aid programs in Pakistan's underserved areas. Akhuwat Foundation Loan has become a beacon of hope and opportunity under his guidance, giving thousands of people across the country long-term financial solutions.
 
               </p>
               <div className="my-5 text-center">
                 <img 
                   src={asaanQarz16}
-                  alt="Asaan Qarz Core Values" 
+                  alt="Akhuwat Foundation Core Values" 
                   className="img-fluid rounded shadow-sm" 
                 />
               </div>
               <p className="mb-4">
-              Dr. Amjad Saqib, who started Asaan Qarz Loan, is a wise, kind, and unwaveringly committed man who works to improve society. His vision is what has made our success possible. Dr. Saqib built Asaan Qarz Loan with the goal of making fair, simple, and easy funding available to everyone. He did this because he knew a lot about Pakistan's financial problems and had always been committed to social justice. His ideas still shape our services and help us serve people all over the country.
+              Dr. Amjad Saqib, who started Akhuwat Foundation Loan, is a wise, kind, and unwaveringly committed man who works to improve society. His vision is what has made our success possible. Dr. Saqib built Akhuwat Foundation Loan with the goal of making fair, simple, and easy funding available to everyone. He did this because he knew a lot about Pakistan's financial problems and had always been committed to social justice. His ideas still shape our services and help us serve people all over the country.
               </p>
 
 
@@ -107,7 +107,7 @@ const AboutUs = () => {
               <h2 className="fw-bold mt-5 mb-4">Our Promise to Pakistan</h2>
 
               <p className="mb-4">
-              Asaan Qarz Loan is a company with a mission that is happy to be based in Pakistan. Our goal is to make life better and the economy stronger by making banking services easy to get to, clear, and cheap.
+              Akhuwat Foundation Loan is a company with a mission that is happy to be based in Pakistan. Our goal is to make life better and the economy stronger by making banking services easy to get to, clear, and cheap.
               </p>
 
               <p className="mb-4">
@@ -116,18 +116,18 @@ const AboutUs = () => {
               <div className="my-5 text-center">
                 <img 
                   src={asaanQarz17}
-                  alt="Asaan Qarz Loan Values Diagram" 
+                  alt="Akhuwat Foundation Loan Values Diagram" 
                   className="img-fluid rounded shadow-sm card-img-top" 
                 />
               </div>
-              <h2 className="fw-bold mt-5 mb-4">Join the family of Asaan Qarz Loans</h2>
+              <h2 className="fw-bold mt-5 mb-4">Join the family of Akhuwat Foundation Loans</h2>
 
               <p className="mb-4">
-              When you join Asaan Qarz Loan, you don't just get a loan; you also get a trusted financial partner who will be there for you every step of the way. We want you to make smart decisions about your money and reach your goals with ease, honesty, and peace of mind.
+              When you join Akhuwat Foundation Loan, you don't just get a loan; you also get a trusted financial partner who will be there for you every step of the way. We want you to make smart decisions about your money and reach your goals with ease, honesty, and peace of mind.
               </p>
 
               <p className="mb-4">
-              Get your loan today and see what makes Asaan Qarz different. It's never been easier to make your goals come true with our quick, safe, and reliable services.
+              Get your loan today and see what makes Akhuwat Foundation different. It's never been easier to make your goals come true with our quick, safe, and reliable services.
 
               </p>
             </article>

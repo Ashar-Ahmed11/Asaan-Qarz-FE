@@ -1,9 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 import Sidebar from './Sidebar';
-import asaanQarz6 from '../Images/asan qarz6.jpg'
-import asaanQarz7 from '../Images/asan qarz7.jpg'
-import asaanQarz8 from '../Images/asan qarz8.jpg'
+import Akhuwat1 from '../Images/newAkhuwat1.jpg'
+import Akhuwat2 from '../Images/newAkhuwat2.jpg'
+import Akhuwat3 from '../Images/newAkhuwat3.jpg'
+
+// import asaanQarz6 from '../Images/asan qarz6.jpg'
+// import asaanQarz7 from '../Images/asan qarz7.jpg'
+// import asaanQarz8 from '../Images/asan qarz8.jpg'
 // import Infograph from '../Images/Infograph.png'
 // import IslamicInfo from '../Images/Interest-Free Micro Loans.png'
 // import getLoan from '../Images/Add a subheading.png'
@@ -24,22 +28,22 @@ const SuccessStory = () => {
         <div className={`${isMobile ? 'col-12' : 'col-lg-9'}`}>
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5">
-              <h1 className="fw-bold mb-4">Succes Story:The story of how Asaan Qarz Loans changed a person's life</h1>
+              <h1 className="fw-bold mb-4">Succes Story:The story of how Akhuwat Foundation Loans changed a person's life</h1>
               
               <p className="mb-4">
-              In today's fast-paced world, being financially stable is very important for people to reach their goals and dreams. Asaan Qarz isn't just about giving people money; it's also about giving them the tools they need to make the future better.
+              In today's fast-paced world, being financially stable is very important for people to reach their goals and dreams. Akhuwat Foundation isn't just about giving people money; it's also about giving them the tools they need to make the future better.
 
               </p>
               
               <p className="mb-4">
-              This success story shows how Asaan Qarz Loans really change people's lives in Pakistan, from business owners and students to people who are having a hard time with money. Asaan Qarz has been making goals come true one loan at a time by making loans easy to get, affordable, and clear.
+              This success story shows how Akhuwat Foundation Loans really change people's lives in Pakistan, from business owners and students to people who are having a hard time with money. Akhuwat Foundation has been making goals come true one loan at a time by making loans easy to get, affordable, and clear.
 
               </p>
     
               <div className="my-5 text-center">
                 <img 
-                  src={asaanQarz6}
-                  alt="Asaan Qarz Loan Logo" 
+                  src={Akhuwat1}
+                  alt="Akhuwat Foundation Loan Logo" 
                   className="img-fluid rounded shadow-sm" 
                 />
               </div>
@@ -47,31 +51,31 @@ const SuccessStory = () => {
               <h2 className="fw-bold mt-5 mb-4">1. Setting the stage for financial empowerment</h2>
               
               <p className="mb-4">
-              Asaan Qarz Loan was created in 2024 to help regular Pakistanis who are having trouble with their money. The company's founder, Dr. Amjad Shah, saw that the standard lending system had problems, such as complicated application processes, high interest rates, and strict requirements that kept many people from getting loans. To make up for this, he came up with a way for everyone to get cheap credit.
+              Akhuwat Foundation Loan was created in 2024 to help regular Pakistanis who are having trouble with their money. The company's founder, Dr. Amjad Shah, saw that the standard lending system had problems, such as complicated application processes, high interest rates, and strict requirements that kept many people from getting loans. To make up for this, he came up with a way for everyone to get cheap credit.
               </p>
               
               <p className="mb-4">
-              The idea behind the effort was to make things easy, fair, and open to everyone. It offered low-interest loans, quick approvals, and a simple process. Asaan Qarz has always been about giving people from all walks of life more power. This method quickly gained trust across Pakistan and helped thousands of people get their finances in order and take charge of their lives.
+              The idea behind the effort was to make things easy, fair, and open to everyone. It offered low-interest loans, quick approvals, and a simple process. Akhuwat Foundation has always been about giving people from all walks of life more power. This method quickly gained trust across Pakistan and helped thousands of people get their finances in order and take charge of their lives.
               </p>
     
               <h2 className="fw-bold mt-5 mb-4">2:  The Journey of a Student: Making Dreams Come True</h2>
               
               <p className="mb-4">
-              Haseeb Ahmed was a smart student from Lahore who wanted to become an engineer. Even though he did very well in school, his family couldn't afford college fees, which could have ruined his plans. His goals seemed impossible to reach until he met Asaan Qarz.
+              Haseeb Ahmed was a smart student from Lahore who wanted to become an engineer. Even though he did very well in school, his family couldn't afford college fees, which could have ruined his plans. His goals seemed impossible to reach until he met Akhuwat Foundation.
               </p>
               
               <p className="mb-4">
-              Asaan Qarz's student loan program gave Haseeb an affordable option that needed little papers and gave him a choice of how to pay back the loan. He was able to keep going to school because the loan application process went smoothly, and he was accepted within 24 hours.
+              Akhuwat Foundation's student loan program gave Haseeb an affordable option that needed little papers and gave him a choice of how to pay back the loan. He was able to keep going to school because the loan application process went smoothly, and he was accepted within 24 hours.
               </p>
               
               <p className="mb-4">
-              Haseeb then graduated from one of the best engineering schools in Pakistan. He is now a famous civil engineer. His story is a powerful example of how Asaan Qarz turns people's money problems into chances and helps them make their dreams come true.
+              Haseeb then graduated from one of the best engineering schools in Pakistan. He is now a famous civil engineer. His story is a powerful example of how Akhuwat Foundation turns people's money problems into chances and helps them make their dreams come true.
               </p>
     
               <div className="my-5 text-center">
                 <img 
-                  src={asaanQarz7}
-                  alt="Asaan Qarz Core Values" 
+                  src={Akhuwat2}
+                  alt="Akhuwat Foundation Core Values" 
                   className="img-fluid rounded shadow-sm" 
                 />
               </div>
@@ -79,7 +83,7 @@ const SuccessStory = () => {
               <h2 className="fw-bold mt-5 mb-4">3: Helping small businesses—Sarah's progress as she grows</h2>
               
               <p className="mb-4">
-               Sarah's life changed when another shop owner put her in touch with Asaan Qarz Loan. A nearby Asaan Qarz Loan Center drew her in with its easy requirements and many loan choices for business owners. The process was easy; she didn't have to fill out a lot of paperwork or make any complicated promises, and the loan was accepted quickly.
+               Sarah's life changed when another shop owner put her in touch with Akhuwat Foundation Loan. A nearby Akhuwat Foundation Loan Center drew her in with its easy requirements and many loan choices for business owners. The process was easy; she didn't have to fill out a lot of paperwork or make any complicated promises, and the loan was accepted quickly.
               </p>
               
               <p className="mb-4">
@@ -87,40 +91,40 @@ const SuccessStory = () => {
               </p>
               
               <p className="mb-4">
-              The quick and friendly process that Asaan Qarz used was a big part of Sarah's shop's turnaround from a failing business to one that does well in the community.
+              The quick and friendly process that Akhuwat Foundation used was a big part of Sarah's shop's turnaround from a failing business to one that does well in the community.
               </p>
     
               <h2 className="fw-bold mt-5 mb-4">4:Help with money right away—emergency support when it counts</h2>
               
               <p className="mb-4">
-              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Asaan Qarz Loan to get them through tough times.
+              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Akhuwat Foundation Loan to get them through tough times.
 
 
               </p>
               
               <p className="mb-4">
-              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Asaan Qarz Loan to get them through tough times.
+              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Akhuwat Foundation Loan to get them through tough times.
 
 
 
               </p>
               
               <p className="mb-4">
-              Look at Ali's tale. He asked Asaan Qarz for a loan because he had no savings and had to pay for hospital bills right away. His request was granted almost right away, and the money was sent right away.
+              Look at Ali's tale. He asked Akhuwat Foundation for a loan because he had no savings and had to pay for hospital bills right away. His request was granted almost right away, and the money was sent right away.
               </p>
               
               <p className="mb-4">
-              Ali was able to handle his position without getting deeper in debt because the terms of his loans were flexible. He is now financially comfortable and in good health, and he is thankful that Asaan Qarz helped him through one of the hardest times in his life.
+              Ali was able to handle his position without getting deeper in debt because the terms of his loans were flexible. He is now financially comfortable and in good health, and he is thankful that Akhuwat Foundation helped him through one of the hardest times in his life.
               </p>
     
               <h2 className="fw-bold mt-5 mb-4">5: Helping Farhan Buy a House—A Dream Come True</h2>
               
               <p className="mb-4">
-              Many Pakistanis want to own their own home, but rising home prices make that dream hard to reach. Many families have been able to move into their own houses thanks to Asaan Qarz's easy-to-repay home loans.
+              Many Pakistanis want to own their own home, but rising home prices make that dream hard to reach. Many families have been able to move into their own houses thanks to Akhuwat Foundation's easy-to-repay home loans.
               </p>
               
               <p className="mb-4">
-              A middle-class worker from Rawalpindi named Farhan Sheikh had been putting money away for years but still couldn't get enough to buy a house. At that point, he asked Asaan Qarz for help.
+              A middle-class worker from Rawalpindi named Farhan Sheikh had been putting money away for years but still couldn't get enough to buy a house. At that point, he asked Akhuwat Foundation for help.
               </p>
               
               <p className="mb-4">
@@ -129,16 +133,16 @@ const SuccessStory = () => {
     
               <div className="my-5 text-center">
                 <img 
-                  src={asaanQarz8}
-                  alt="Asaan Qarz Loan Values Diagram" 
+                  src={Akhuwat3}
+                  alt="Akhuwat Foundation Loan Values Diagram" 
                   className="img-fluid rounded shadow-sm" 
                 />
               </div>
     
-              <h2 className="fw-bold mt-5 mb-4">6: Ghulam's Changes: Making Agriculture Stronger with Asaan Qarz</h2>
+              <h2 className="fw-bold mt-5 mb-4">6: Ghulam's Changes: Making Agriculture Stronger with Akhuwat Foundation</h2>
               
               <p className="mb-4">
-              It's not just professionals in cities that can use Asaan Qarz Loan; its agricultural loan plan also helps people in rural areas. A lot of farmers in Pakistan have trouble paying for things they need, like good seeds, fertilizer, and new tools that would help them make more money and increase their crops.
+              It's not just professionals in cities that can use Akhuwat Foundation Loan; its agricultural loan plan also helps people in rural areas. A lot of farmers in Pakistan have trouble paying for things they need, like good seeds, fertilizer, and new tools that would help them make more money and increase their crops.
 
               </p>
               
@@ -147,18 +151,18 @@ const SuccessStory = () => {
               </p>
               
               <p className="mb-4">
-              Ghulam then looked at Asaan Qarz. In less than a week, his application was accepted. He used the money to buy better seeds, set up a new watering system, and improve his plowing tools. His crop production tripled as a result, and his pay went up a lot.
+              Ghulam then looked at Akhuwat Foundation. In less than a week, his application was accepted. He used the money to buy better seeds, set up a new watering system, and improve his plowing tools. His crop production tripled as a result, and his pay went up a lot.
 
               </p>
     
-              <h2 className="fw-bold mt-5 mb-4">How Asaan Qarz is Changing Lives: A Look at the Effects</h2>
+              <h2 className="fw-bold mt-5 mb-4">How Akhuwat Foundation is Changing Lives: A Look at the Effects</h2>
               
               <p className="mb-4">
-              Asaan Qarz Loan has given people all over Pakistan chances that have changed their lives, from students and business owners to farms and families. The lives of Hassan, Sarah, Ali, Farhan, and Ghulam show that getting fair and easy borrowing can open the door to a better future.
+              Akhuwat Foundation Loan has given people all over Pakistan chances that have changed their lives, from students and business owners to farms and families. The lives of Hassan, Sarah, Ali, Farhan, and Ghulam show that getting fair and easy borrowing can open the door to a better future.
               </p>
               
               <p className="mb-4">
-              Asaan Qarz Loan Scheme 2025 is happy to offer clear, low-cost financial options that break down barriers and give people power. Our goal is simple: to give every Pakistani the tools they need to make tomorrow safer and brighter.
+              Akhuwat Foundation Loan Scheme 2025 is happy to offer clear, low-cost financial options that break down barriers and give people power. Our goal is simple: to give every Pakistani the tools they need to make tomorrow safer and brighter.
 
 
               </p>

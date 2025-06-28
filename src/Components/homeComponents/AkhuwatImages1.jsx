@@ -1,6 +1,7 @@
 import React from 'react';
-import asaanQarz4 from '../../Images/asan qarz4.jpg'
-import asaanQarz5 from '../../Images/asan qarz5.jpg'
+import Akhuwat6 from '../../Images/newAkhuwat6.jpg'
+import Akhuwat7 from '../../Images/newAkhuwat7.jpg'
+// import asaanQarz5 from '../../Images/asan qarz5.jpg'
 
 const AkhuwatImages1 = () => {
   return (
@@ -9,7 +10,7 @@ const AkhuwatImages1 = () => {
       <div className="row justify-content-center text-center">
         <div className="col-md-6 py-3 mb-4 mb-md-0 d-flex justify-content-center">
           <img 
-            src={asaanQarz5}
+            src={Akhuwat6}
             alt="Hasina Bibi - Stitching Business" 
             className="card-img-top rounded "
           
@@ -18,7 +19,7 @@ const AkhuwatImages1 = () => {
   
         <div className="col-md-6 py-3 d-flex justify-content-center">
           <img 
-            src={asaanQarz4}
+            src={Akhuwat7}
             alt="Farzana Bibi - Beauty Parlour" 
             className="card-img-top rounded "
           

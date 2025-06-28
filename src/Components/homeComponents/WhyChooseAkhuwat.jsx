@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from 'react-countup';
-import asaanQarz1 from '../../Images/asan qarz1.jpg'
+import Akhuwat4 from '../../Images/newAkhuwat4.jpg'
+import Akhuwat5 from '../../Images/newAkhuwat5.jpg'
 import asaanQarz2 from '../../Images/asan qarz2.jpg'
 
 const WhyChooseAkhuwat = () => {
@@ -19,10 +20,10 @@ const WhyChooseAkhuwat = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-            Why Should You Pick Asaan Qarz Loans?
+            Why Should You Pick Akhuwat Foundation Loans?
             </h2>
             <p>
-           Asaan Qarz is the only company in Pakistan that gives loans to people in need with no interest (Qarz-e-Hasna). Asaan Qarz puts helping people ahead of making money, which is different from most banks. It helps pay for important things like medical bills, starting a business, and going to school. There are no hidden fees or handling charges. People can apply online or at a branch near them because they are open to everyone and care about the neighborhood. Asaan Qarz wants to reduce poverty by giving people easy, clear, and caring financial help that gives them the tools they need to make their lives better.
+           Akhuwat Foundation is the only company in Pakistan that gives loans to people in need with no interest (Qarz-e-Hasna). Akhuwat Foundation puts helping people ahead of making money, which is different from most banks. It helps pay for important things like medical bills, starting a business, and going to school. There are no hidden fees or handling charges. People can apply online or at a branch near them because they are open to everyone and care about the neighborhood. Akhuwat Foundation wants to reduce poverty by giving people easy, clear, and caring financial help that gives them the tools they need to make their lives better.
 
             </p>
           </div>
@@ -35,7 +36,7 @@ const WhyChooseAkhuwat = () => {
                   style={{ minHeight: "350px" }}
                 >
                   <img
-                    src={asaanQarz1}
+                    src={Akhuwat4}
                     alt="Money Received"
                     className="img-fluid rounded w-100 h-100"
                     style={{ objectFit: "cover" }}
@@ -57,7 +58,7 @@ const WhyChooseAkhuwat = () => {
                   style={{ minHeight: "350px" }}
                 >
                   <img
-                    src={asaanQarz2}
+                    src={Akhuwat5}
                     alt="Founder"
                     className="img-fluid rounded w-100 h-100"
                     style={{ objectFit: "cover" }}

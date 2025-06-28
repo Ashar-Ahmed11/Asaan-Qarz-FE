@@ -17,26 +17,26 @@ const TermsAndConditions = () => {
         <div className={`${isMobile ? "col-12" : "col-lg-9"}`}>
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5">
-              <h1 className="fw-bold mb-4">Terms and Conditions – Asaan Qarz Loan</h1>
+              <h1 className="fw-bold mb-4">Terms and Conditions – Akhuwat Foundation Loan</h1>
 
               <p className="mb-4">
-              Thanks for coming to Asaan Qarz Loan! You agree to these Terms and Conditions when you use our website and services. Please don't use our services or website if you don't agree with any of these rules.
+              Thanks for coming to Akhuwat Foundation Loan! You agree to these Terms and Conditions when you use our website and services. Please don't use our services or website if you don't agree with any of these rules.
               </p>
 
               <p className="mb-4">
-              Asaan Qarz Loan can change these Terms and Conditions at any time and without warning. They are your duty to check them often for changes.
+              Akhuwat Foundation Loan can change these Terms and Conditions at any time and without warning. They are your duty to check them often for changes.
               </p>
 
               <h2 className="fw-bold mt-5 mb-4">1. What They Signify</h2>
-              <p>If you want to get a loan through “Asaan Qarz Loan,” you can visit their website and look at their loan plans.</p>
-              <p>We, “Us,” and “Our” are all parts of Asaan Qarz Loan's team.</p>
+              <p>If you want to get a loan through “Akhuwat Foundation Loan,” you can visit their website and look at their loan plans.</p>
+              <p>We, “Us,” and “Our” are all parts of Akhuwat Foundation Loan's team.</p>
               <p>If someone says “You” or “Your,” it means that they are using the website or its services.</p>
 
               <h2 className="fw-bold mt-5 mb-4">2. Using the Website</h2>
               <p>You agree that you are at least 18 years old and legally able to sign contracts when you use our website. You agree to follow the rules when using the website and not do anything that could hurt it or mess it up, like sending viruses, trying to get in without permission, or using bots.</p>
 
               <h2 className="fw-bold mt-5 mb-4">3. Help with loans</h2>
-              <p>Asaan Qarz Loan helps people in Pakistan who qualify by giving them money. By applying for a loan, you agree to give true information and know that you may not be approved if you don't meet the requirements. We reserve the right to choose whether to accept or reject applications. Before the deal is finalized, the loan terms, including interest and payments, will be made clear. You have to pay back the loan the way you agreed to.</p>
+              <p>Akhuwat Foundation Loan helps people in Pakistan who qualify by giving them money. By applying for a loan, you agree to give true information and know that you may not be approved if you don't meet the requirements. We reserve the right to choose whether to accept or reject applications. Before the deal is finalized, the loan terms, including interest and payments, will be made clear. You have to pay back the loan the way you agreed to.</p>
 
               <h2 className="fw-bold mt-5 mb-4">4. Eligibility for a loan</h2>
               <p>This is what you need to do to get it:</p>
@@ -60,7 +60,7 @@ const TermsAndConditions = () => {
               <p>For your convenience, our page may have links to other sites. But we don't support or oversee these sites, and we're not in charge of any problems that might come up from using them.</p>
 
               <h2 className="fw-bold mt-5 mb-4">9. The rights to intellectual property</h2>
-              <p>The text, pictures, and logos on this site are all property of Asaan Qarz Loan and are protected by intellectual property rules. You can't use any of this material for business without our permission.</p>
+              <p>The text, pictures, and logos on this site are all property of Akhuwat Foundation Loan and are protected by intellectual property rules. You can't use any of this material for business without our permission.</p>
 
               <h2 className="fw-bold mt-5 mb-4">10. Actions Not Allowed</h2>
               <p>You promise not to:</p>
@@ -85,12 +85,12 @@ const TermsAndConditions = () => {
 
               <h2 className="fw-bold mt-5 mb-4">15. Contact Us</h2>
               <p>If you have any questions, issues, or requests about these Terms and Conditions, please get in touch with us.</p>
-              <p>Email: <a href="mailto:support@Asaan Qarzloanschemepk.com">support@Asaan Qarzloanschemepk.com</a></p>
+              <p>Email: <a href="mailto:support@Akhuwat Foundationloanschemepk.com">support@Akhuwat Foundationloanschemepk.com</a></p>
               <p>Phone: +92 340 1003463</p>
               <p>Office Address: F-6, Islamabad, Islamabad Capital Territory, Pakistan</p>
 
               <p className="mt-4 text-muted">Last Updated: October 2024</p>
-              <p className="mt-4 ">We're glad you picked Asaan Qarz Loan. We are committed to providing you with clear and reliable banking services.</p>
+              <p className="mt-4 ">We're glad you picked Akhuwat Foundation Loan. We are committed to providing you with clear and reliable banking services.</p>
 
             </article>
           </main>

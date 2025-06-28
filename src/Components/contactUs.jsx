@@ -18,10 +18,10 @@ const ContactUs = () => {
         <div className={`${isMobile ? "col-12" : "col-lg-9"}`}>
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5">
-              <h1 className="fw-bold mb-4">Contact Us – Asaan Qarz Loans</h1>
+              <h1 className="fw-bold mb-4">Contact Us – Akhuwat Foundation Loans</h1>
 
               <p className="mb-4">
-              We at Asaan Qarz Loan are dedicated to giving you great customer service and making sure that your financial journey goes smoothly and without any problems. Our experienced team is here to help you every step of the way, whether you're applying for a loan, learning more about our services, or need help with a current application.
+              We at Akhuwat Foundation Loan are dedicated to giving you great customer service and making sure that your financial journey goes smoothly and without any problems. Our experienced team is here to help you every step of the way, whether you're applying for a loan, learning more about our services, or need help with a current application.
               </p>
 
               <p className="mb-4">

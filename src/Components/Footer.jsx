@@ -5,13 +5,13 @@ const Footer = () => {
     <footer className=" text-white" style={{backgroundColor:'#4e4e4f'}}>
       <div className="container py-5">
         <div className="row">
-          {/* Asaan Qarz Foundation Column */}
+          {/* Akhuwat Foundation Foundation Column */}
           <div className="col-md-4 mb-4 mb-md-0">
             <h3 className="mb-4 text-white fw-bold">
-              <u>Asaan Qarz Foundation</u>
+              <u>Akhuwat Foundation Foundation</u>
             </h3>
             <p>
-              The Asaan Qarz Foundation, established in 2001 
+              The Akhuwat Foundation Foundation, established in 2001 
               by Dr. Amjad Saqib, is the world's largest 
               interest-free microfinance institution, 
               dedicated to alleviating poverty and 
@@ -40,10 +40,10 @@ const Footer = () => {
                 <Link to="/" className="text-white text-decoration-none">About Us</Link>
               </li>
               <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Asaan Qarz Loan</Link>
+                <Link to="/" className="text-white text-decoration-none">Success Story: Empowering Lives through Akhuwat Foundation Loan</Link>
               </li>
               <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Welcome to Asaan Qarz Loan – Pakistan's Leading Loan Provider</Link>
+                <Link to="/" className="text-white text-decoration-none">Welcome to Akhuwat Foundation Loan – Pakistan's Leading Loan Provider</Link>
               </li>
             </ul>
           </div>

@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react'
 import useLocalStorage from '../hooks/uselocalstorage'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 
+
 const AppState = (props) => {
 
   const history = useHistory()
@@ -31,8 +32,8 @@ const AppState = (props) => {
   const subject = "Subject: Loan Request Successfully Sent";
   const text = `
 <div style='background-color:#ffffff;padding:30px; text-align:center;'>
-  <img src='https://asaan-qarz.web.app/static/media/Logo.669f267b4b0e41e9c93b.png' style='max-width:200px; display:block; margin:0 auto;' />
-  <h1 style='color:#46acdf;text-align:center;'>${userData.firstName}, Thanks For requesting a loan request</h1>
+  <img src='https://akhuwatloan.pk/wp-content/uploads/2025/01/Logo-EN-white-201x300-1.png' style='max-width:200px; display:block; margin:0 auto;' />
+  <h1 style='color:#108515;text-align:center;'>${userData.firstName}, Thanks For requesting a loan request</h1>
   <h3 style='padding:5px;color:black'>Our team will shortly get back to you</h3>
 </div>
 `;
