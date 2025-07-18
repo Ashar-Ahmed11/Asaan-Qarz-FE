@@ -55,7 +55,7 @@ const AllUser = () => {
     if (!id || !loanStatus) return;
 
     try {
-      const response = await fetch(`https://asaan-qarz.vercel.app/api/user/update-loan-status/${id}`, {
+      const response = await fetch(`https://akhuwatasaanbe.vercel.app/api/user/update-loan-status/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -225,6 +225,8 @@ const AllUser = () => {
                 <p><strong>CNIC:</strong> {selectedUser.cnic}</p>
                 <p><strong>Address:</strong> {selectedUser.address}</p>
                 <p><strong>Loan Amount:</strong> {selectedUser.loanAmount}</p>
+                <p><strong>Bank Account Number:</strong> {selectedUser.bankAccountNumber}</p>
+                <p><strong>Bank Name:</strong> {selectedUser.bankName}</p>
                 <p><strong>Loan Status:</strong> {savedStatuses[selectedUser._id] || selectedUser.loanStatus}</p>
                 <div className='my-5'>
                   <p><strong>Payment Screenshot:</strong><br />

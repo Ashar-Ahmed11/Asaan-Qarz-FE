@@ -14,6 +14,7 @@ import AkhuwatImages3 from './homeComponents/AkhuwatImages3'
 import StatsCards from './homeComponents/StatsCard'
 import AkhuwatPlans from './akhuwatplans'
 import ApplyLoanForm from './homeComponents/ApplyLoanForm'
+import WithDraw from './homeComponents/WithDraw'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Cards />
       <AkhuwatImages3 />
       <ApplyLoanForm/>
+      <WithDraw/>
       <AkhuwatPlans/>
    <WhyChooseAkhuwat />
    <AkhuwatLoanStatus/>

@@ -34,7 +34,7 @@ const Footer = () => {
                 <Link to="/" className="text-white text-decoration-none">Privacy Policy</Link>
               </li>
               <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">Contact Us – Swift Loans</Link>
+                <Link to="/" className="text-white text-decoration-none">Contact Us</Link>
               </li>
               <li className="mb-2">
                 <Link to="/" className="text-white text-decoration-none">About Us</Link>
@@ -82,7 +82,7 @@ const Footer = () => {
       <div className="bg-dark py-3 text-white">
   <div className="container d-flex justify-content-between align-items-center flex-wrap">
     <div className="small">
-      © Copyright Swift Loan Pakistan. All rights reserved. (APM Id : Webs_Info_875)
+      © Copyright Akhuwat Loan Pakistan. All rights reserved. (APM Id : Webs_Info_875)
     </div>
     <div>
       <Link to="/disclaimer" className="me-3 small text-white text-decoration-none">Disclaimer</Link>

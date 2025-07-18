@@ -152,6 +152,55 @@ const ApplyLoanForm = () => {
                   placeholder="Loan Amount"
                 />
               </div>
+              <div className="mb-3">
+                <input
+                  value={userData.bankAccountNumber}
+                  onChange={(e) => setUserData({ ...userData, bankAccountNumber: e.target.value })}
+                  disabled={createUserLoader}
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Account Number"
+                />
+              </div>
+                 <div className="mb-3">
+  <div className="select-wrapper">
+    <select
+      value={userData.bankName}
+      onChange={(e) => setUserData({ ...userData, bankName: e.target.value })}
+      disabled={createUserLoader}
+      className="form-control custom-select"
+    >
+      <option value="" disabled hidden>Select Your Bank</option>
+      <option value="Bank Al-Habib">Bank Al-Habib</option>
+      <option value="Askari Bank">Askari Bank</option>
+      <option value="Bank Alfalah">Bank Alfalah</option>
+      <option value="Allied Bank">Allied Bank</option>
+      <option value="Habib Metropolitan Bank">Habib Metropolitan Bank</option>
+      <option value="HBL">HBL</option>
+      <option value="Meezan Bank">Meezan Bank</option>
+      <option value="Standard Chartered Bank">Standard Chartered Bank</option>
+      <option value="JS Bank">JS Bank</option>
+      <option value="Soneri Bank">Soneri Bank</option>
+      <option value="Summit Bank">Summit Bank</option>
+      <option value="Sindh Bank">Sindh Bank</option>
+      <option value="National Bank">National Bank</option>
+      <option value="NayaPay">NayaPay</option>
+      <option value="SadaPay">SadaPay</option>
+      <option value="EasyPaisa">EasyPaisa</option>
+      <option value="JazzCash">JazzCash</option>
+      <option value="Barclays">Barclays</option>
+      <option value="Citi Bank">Citi Bank</option>
+      <option value="UBL">UBL</option>
+      <option value="SilkBank">SilkBank</option>
+      <option value="Bank Islami">Bank Islami</option>
+      <option value="Dubai Islamic Bank">Dubai Islamic Bank</option>
+      <option value="Bank of Khyber">Bank of Khyber</option>
+      <option value="Bank of Punjab">Bank of Punjab</option>
+      <option value="Faysal Bank">Faysal Bank</option>
+      <option value="Samba Bank">Samba Bank</option>
+    </select>
+  </div>
+</div>
               {siteData?<p className="py-2 h5">Loan Application Fee: <span style={{fontWeight:"bold"}}>{siteData.loanfee} PKR</span></p>:<div className="d-flex justify-content-center align-items-center py-2">
                   <span className="text-danger" style={{fontWeight:"bold"}}>Loading Loan Fee</span>
                   <div style={{ width: "25px", height: "25px" }} class="spinner-border text-danger  mx-2" role="status">
