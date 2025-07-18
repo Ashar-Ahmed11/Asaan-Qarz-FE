@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.147922fd.css",
-    "main.js": "/static/js/main.df141585.js",
+    "main.css": "/static/css/main.c3dd0739.css",
+    "main.js": "/static/js/main.85234a96.js",
     "static/js/453.684e42f6.chunk.js": "/static/js/453.684e42f6.chunk.js",
     "static/media/centerImage.png": "/static/media/centerImage.92f1980c1ac1d2fbab4d.png",
     "static/media/loangraphic.png": "/static/media/loangraphic.287d8b8282b1962f24d3.png",
@@ -37,12 +37,12 @@
     "static/media/Loan Scheme.jpg": "/static/media/Loan Scheme.9dd8a21eadcd546ff27b.jpg",
     "static/media/For house loan.jpg": "/static/media/For house loan.6c480401abd27b0d11bf.jpg",
     "index.html": "/index.html",
-    "main.147922fd.css.map": "/static/css/main.147922fd.css.map",
-    "main.df141585.js.map": "/static/js/main.df141585.js.map",
+    "main.c3dd0739.css.map": "/static/css/main.c3dd0739.css.map",
+    "main.85234a96.js.map": "/static/js/main.85234a96.js.map",
     "453.684e42f6.chunk.js.map": "/static/js/453.684e42f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.147922fd.css",
-    "static/js/main.df141585.js"
+    "static/css/main.c3dd0739.css",
+    "static/js/main.85234a96.js"
   ]
 }
