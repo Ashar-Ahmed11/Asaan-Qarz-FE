@@ -24,9 +24,13 @@ const AboutUs = () => {
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5">
               <h1 className="fw-bold mb-4">About Us</h1>
+              <h2 className="fw-bold mb-4">Meet Our Founder: The Man Behind the Mission</h2>
 
+              <p className="">
+              It all started with a simple but powerful idea—what if everyone in Pakistan, no matter their income, could access fair, affordable loans to build a better life? This idea became a reality in 2023 when Dr. Amjad Saqib founded Akhuwat Foundation Loan. What began as a vision to empower people with low-interest financial solutions has grown into a lifeline for thousands of families, students, and business owners across the country.
+              </p>
               <p className="mb-4">
-              Welcome to Akhuwat Foundation Loan, your reliable source for easy access to loans in Pakistan. Akhuwat Foundation was started in 2023 by Dr. Amjad Saqib with a clear goal: to give people across the country cheap loans with low interest rates. There is help for you whether you are trying to reach personal goals or grow your business. Our promise is to give you clear, reliable, and effective financial solutions that are made to fit your specific wants.
+              From the very beginning, our mission has been clear: to provide simple, transparent, and effective loan solutions tailored to the unique needs of every individual. Whether you are pursuing personal goals, investing in a business, or supporting your family through an unexpected crisis, Akhuwat Foundation Loan is here to help you move forward with confidence.
               </p>
               <div className="my-5 text-center p-4">
                 <img 
@@ -36,34 +40,36 @@ const AboutUs = () => {
                 />
               </div>
 
-              <h2 className="fw-bold mt-5 mb-4">What We Do</h2>
+              <h2 className="fw-bold mt-5 mb-4">What We Do: Empowering Every Step of Your Journey
+</h2>
 
               <p className="mb-4">
-              At Akhuwat Foundation Loan, our only goal is to help people who need money the most. We strongly think that everyone, no matter how much money they make, should be able to get loans that they can afford. We give our clients the power to take charge of their financial future and improve their quality of life by giving them low-interest loans with flexible payment choices.
+              At Akhuwat Foundation Loan, our focus is on people. We believe that everyone deserves access to loans they can manage, no matter their financial background. Our services are designed to remove barriers, simplify the process, and provide flexible solutions that meet your specific needs.
+
 
               </p>
 
-              <p className="mb-4">
+              {/* <p className="mb-4">
                 We understand how hard it can be to get a loan, especially for people in Pakistan who are worried about their money. Because of this, we are dedicated to giving services that are simple, quick, and clear. Our goal is to get rid of obstacles by giving each customer custom solutions that meet their specific needs.
-              </p>
+              </p> */}
 
               <h2 className="fw-bold mt-5 mb-4">Why Akhuwat Foundation Loan is the Best Option?</h2>
 
               <ol className="fw-light mx-5">
-                <li>Quick Process for Approving</li>
-                <p>We know how important it is to have money quickly. Our simple application process means that you'll get approved quickly, without all the hassles that come with traditional banking.</p>
-                <li>A lot of loan choices</li>
-                <p>We have a wide range of loan options to meet all of your needs, whether you're looking for a personal loan, business funding, help with school, or emergency cash.</p>
-                <li>Fully open and honest</li>
-                <p>We think it's important to be clear. You'll know all the terms before you sign, so there are no surprises or unclear language.</p>
-                <li>Customized customer service</li>
-                <p>We take the time to learn about your finances so that we can give you advice on loan amounts and payment plans that are just right for you.</p>
+                <li>Quick Approval Process:</li>
+                <p>We understand how urgent money matters can be. Our streamlined application ensures you get the funds you need fast, without the frustration of traditional banking delays.</p>
+                <li>Diverse Loan Options:</li>
+                <p>From personal loans and business funding to student loans and emergency cash, we offer financial solutions for every need.</p>
+                <li>Transparent and Honest:</li>
+                <p>There are no hidden terms. You’ll always know exactly what to expect.</p>
+                <li>Personalized Support:</li>
+                <p>Our team takes the time to understand your situation and tailor repayment plans that work for you.</p>
               </ol>
 
-              <h2 className="fw-bold mt-5 mb-4">Dr. Amjad Saqib is our head founder.</h2>
+              <h2 className="fw-bold mt-5 mb-4">Our Founder: A Visionary for Financial Inclusion</h2>
 
               <p className="mb-4">
-              Dr. Amjad Saqib is a well-known social thinker and philanthropist who came up with the idea for Akhuwat Foundation Loan. Because he has always cared about financial inclusion and giving people power in their communities, he has been a strong supporter of social aid programs in Pakistan's underserved areas. Akhuwat Foundation Loan has become a beacon of hope and opportunity under his guidance, giving thousands of people across the country long-term financial solutions.
+              Dr. Amjad Saqib, a renowned philanthropist and social thinker, has always believed in empowering communities. His lifelong dedication to social justice inspired him to create Akhuwat Foundation Loan, turning it into a beacon of hope for Pakistanis who face financial barriers. Under his guidance, the foundation has delivered life-changing opportunities, helping thousands achieve stability and independence.
 
               </p>
               <div className="my-5 text-center">
@@ -78,41 +84,43 @@ const AboutUs = () => {
               </p>
 
 
-              <h2 className="fw-bold mt-5 mb-4">What We Stand For</h2>
+              <h2 className="fw-bold mt-5 mb-4">Our Core Values: Guided by Trust and Compassion</h2>
 
               <ul className="fw-light mx-5">
-                <li>Being clear: At every level, we are honest and open with each other. We believe in building trust with every client by being clear in our communication and being honest about our terms.</li>
-                <li>Focussing on the customer: Our services are based on what you want. We are proud of the fact that we can help each person individually and suggest the best financial options for their needs.</li>
-                <li>New ideas: New financial tools and technology are always being added so that we can better meet the changing needs of our customers.</li>
-                <li>Being Socially Responsible: We have an effect that goes beyond giving loans. We want to improve whole communities by promoting economic growth that benefits everyone and providing clear, long-term financial answers.</li>
+                <li>Honesty at Every Step: We build trust through transparency, making sure clients understand all terms clearly.</li>
+                <li>Customer-Centric Approach: Every solution is tailored to meet your unique financial needs.</li>
+                <li>Innovation: We continually adopt new financial tools and technology to better serve our clients.</li>
+                <li>Social Responsibility: Beyond loans, we strive to strengthen communities by promoting economic growth and providing sustainable, long-term solutions.</li>
               </ul>
 
-              <h2 className="fw-bold mt-5 mb-4">Personal loans are one of our financial services.</h2>
+              <h2 className="fw-bold mt-5 mb-4">Life Changing Loan Solutions</h2>
 
-              <p className="mb-4">
+              {/* <p className="mb-4">
                 Flexible funds to help with things like school, health care, or situations that come up out of the blue.
-              </p>
+              </p> */}
 
               <ul className="fw-light mx-5">
-                <li>Loans for businesses</li>
-                <p >Giving founders and small businesses the money they need to start up, run, or grow their businesses.</p>
-                <li>Loans for school</li>
-                <p>Offering low-cost, interest-free loan choices to help students reach their academic goals.</p>
-                <li>Instant Loans</li>
-                <p>Quick and reliable cash help when you need it most or when you least expect it.</p>
-                <li>Loans with no interest</li>
-                <p>Shariah-compliant loans with no interest that are meant to help people and families with low incomes</p>
+                <li>Personal Loans:</li>
+                <p >Flexible funds for emergencies, health care, education, or unexpected needs.</p>
+                <li>Business Loans:</li>
+                <p>Helping entrepreneurs launch or expand their businesses without the burden of interest.</p>
+                <li>Student Loans:</li>
+                <p>Low-cost, interest-free loans to help students focus on their studies and achieve their dreams.</p>
+                <li>Instant Loans:</li>
+                <p>Fast, reliable support when you need cash urgently.</p>
+                <li>Shariah-Compliant Loans:</li>
+                <p>Interest-free solutions aimed at helping low-income families and individuals thrive.</p>
               </ul>
 
-              <h2 className="fw-bold mt-5 mb-4">Our Promise to Pakistan</h2>
+              <h2 className="fw-bold mt-5 mb-4">Our Promise: A Brighter Tomorrow for Pakistan</h2>
 
               <p className="mb-4">
-              Akhuwat Foundation Loan is a company with a mission that is happy to be based in Pakistan. Our goal is to make life better and the economy stronger by making banking services easy to get to, clear, and cheap.
+              Akhuwat Foundation Loan is proud to serve Pakistan with a mission to make financial support accessible, transparent, and fair. We are here to help you start a business, pay for education, or overcome financial emergencies. One loan at a time, we are building a stronger, fairer, and more hopeful Pakistan.
               </p>
 
-              <p className="mb-4">
+              {/* <p className="mb-4">
               We're here to help you whether you're starting a business, paying for school, or dealing with a cash emergency. We're building a better, more open Pakistan one loan at a time.
-              </p>
+              </p> */}
               <div className="my-5 text-center">
                 <img 
                   src={asaanQarz17}
@@ -120,14 +128,14 @@ const AboutUs = () => {
                   className="img-fluid rounded shadow-sm card-img-top" 
                 />
               </div>
-              <h2 className="fw-bold mt-5 mb-4">Join the family of Akhuwat Foundation Loans</h2>
+              <h2 className="fw-bold mt-5 mb-4">Be a Valuable Part of The Akhuwat Family</h2>
 
               <p className="mb-4">
-              When you join Akhuwat Foundation Loan, you don't just get a loan; you also get a trusted financial partner who will be there for you every step of the way. We want you to make smart decisions about your money and reach your goals with ease, honesty, and peace of mind.
+              When you choose Akhuwat Foundation Loan, you’re not just getting financial support, but you’re gaining a trusted partner for your journey. We are committed to guiding you every step of the way with honesty, clarity, and care.
               </p>
 
               <p className="mb-4">
-              Get your loan today and see what makes Akhuwat Foundation different. It's never been easier to make your goals come true with our quick, safe, and reliable services.
+              Take the first step toward your goals today. With the Akhuwat Foundation Loan, achieving your dreams has never been easier.
 
               </p>
             </article>

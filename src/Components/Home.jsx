@@ -18,6 +18,7 @@ import WithDraw from './homeComponents/WithDraw'
 
 const Home = () => {
   return (
+    
     <div>
       <Crousal />
       <StatsCards />

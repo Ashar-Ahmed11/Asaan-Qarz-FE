@@ -11,13 +11,18 @@ const AkhuwatLoanInstruction = ()=>{
         Borrowers can now easily check on the progress of their loan online with Akhuwat Foundation. You can easily see your payment records and the amount you still owe on the official website.
         </p>
         
-        <h2 className="fw-bold mb-4">Checking Your Loan:</h2>
+        <h2 className="fw-bold mb-4">Checking Your Loan</h2>
         
         <ol className="fs-5">
-          <li className="mb-2">Go to the page for Akhuwat Foundation.</li>
-          <li className="mb-2">Look for the loan progress checker tool and click on it.</li>
-          <li className="mb-2">If you click the "Check Loan" button, you can see important information about your loan, such as the state, payments made, and amount still due.</li>
-          <li className="mb-2">Feel free to call Akhuwat Foundation offices if you need help. The helpful support staff is ready to help.</li>
+          <li className="mb-2">Visit the Akhuwat Foundation website.</li>
+          <li className="mb-2">Locate the loan progress checker tool and click on it.</li>
+          <li className="mb-2">Click the "Check Loan" button to view details such as:</li>
+          <ul>
+            <li>Loan status</li>
+            <li>Payments made</li>
+            <li className="mb-2">Remaining balance</li>
+          </ul>
+          <li className="mb-2">Contact Akhuwat Foundation offices if you need assistance; their support staff are ready to help.</li>
         </ol>
       </div>
     </section>

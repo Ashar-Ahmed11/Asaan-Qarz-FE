@@ -20,10 +20,10 @@ const WhyChooseAkhuwat = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-            Why Should You Pick Akhuwat Foundation Loans?
+            Why Choose Akhuwat Foundation Loans?
             </h2>
             <p>
-           Akhuwat Foundation is the only company in Pakistan that gives loans to people in need with no interest (Qarz-e-Hasna). Akhuwat Foundation puts helping people ahead of making money, which is different from most banks. It helps pay for important things like medical bills, starting a business, and going to school. There are no hidden fees or handling charges. People can apply online or at a branch near them because they are open to everyone and care about the neighborhood. Akhuwat Foundation wants to reduce poverty by giving people easy, clear, and caring financial help that gives them the tools they need to make their lives better.
+           Akhuwat Foundation stands out as Pakistan’s only organization offering truly interest-free loans (Qarz-e-Hasna) to people in need. Unlike traditional banks, its core mission is to support communities rather than earn profit. Whether you need help with medical expenses, education, or starting a business, Akhuwat provides accessible financial support without hidden charges or processing fees. You can apply easily online or visit a nearby branch, making the process convenient for everyone. With a focus on reducing poverty, Akhuwat Foundation offers transparent, compassionate, and empowering financial solutions designed to help people improve their lives.
 
             </p>
           </div>

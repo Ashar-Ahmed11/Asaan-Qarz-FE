@@ -9,26 +9,27 @@ const AkhuwatBusinessLoan = () => {
     <div className="container-fluid px-4 py-4" style={{ maxWidth: "1100px", margin: "0 auto", fontSize: '22px' }}>
       {/* Header Section */}
       <div className="text-center mb-5">
-        <h1 className="fw-bold mb-3">Akhuwat Foundation Business Loan: Giving Pakistani Business Owners the Tools They Need</h1>
+        <h1 className="fw-bold mb-3">Akhuwat Foundation Business Loans: Empowering Pakistani Entrepreneurs</h1>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
-        Pakistani business owners who want to start or grow their companies can get the Akhuwat Foundation Business Loan, which gives them the money they need. Starting a business or making it bigger can be hard, especially if you don't have enough money. With its interest-free loan plan, Akhuwat Foundation provides a useful option for people who can't get loans from regular banks. The Foundation's goal is to help business owners become financially independent while also helping the economy of Pakistan grow.
+        Starting or growing a business in Pakistan can be challenging, especially without access to funding. Akhuwat Foundation Business Loans provide interest-free financial support to help entrepreneurs overcome these barriers. By giving business owners the tools they need, the foundation not only fosters financial independence but also contributes to the growth of local economies.
         </p>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
           
-Akhuwat Foundation's loan program can help you reach your business goals, whether you want to open a shop, start a service-based business, or invest in small-scale manufacturing.
+Whether you want to open a new shop, launch a service-based business, or expand small-scale manufacturing, Akhuwat Foundation is here to help you achieve your goals.
         </p>
       </div>
 
       {/* Benefits Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Akhuwat Foundation?</h2>
-          <p>Loans with no interest – You can grow your business without having to worry about high interest rates, which often slow things down.</p>
+          <h2 className="fw-bold mb-3">Why Choose Akhuwat Foundation Business Loans?</h2>
+          {/* <p>Loans with no interest – You can grow your business without having to worry about high interest rates, which often slow things down.</p> */}
           <ul>
-            <li><strong>No Collateral Needed:</strong> Get access to money without putting up personal property as collateral. This makes borrowing safer and easier.</li>
-            <li><strong>Flexible Repayment Options:</strong> Repayment plans are made to fit the earnings of your business, which helps you stay on track and avoid stress.</li>
-            <li><strong>Support for Small Businesses:</strong> Giving entrepreneurs the tools they need to create jobs, improve local economies, and make their towns better places to live.</li>
-            <li><strong>Promoting Financial:</strong> Inclusion means giving people who don't have access to enough financial options the chance to do so. This helps make the economy more fair and open to everyone.</li>
+            <li><strong>Interest-Free Financing:</strong>  Grow your business without the burden of high interest rates slowing your progress.</li>
+            <li><strong>No Collateral Required:</strong> Access funds without putting your personal property at risk, making borrowing safe and straightforward.</li>
+            <li><strong>Flexible Repayment Plans:</strong> Repayment schedules are tailored to your business income, helping you stay on track without stress</li>
+            <li><strong>Support for Small Businesses:</strong> Equip entrepreneurs to create jobs, boost local economies, and strengthen communities.</li>
+            <li><strong>Promoting Financial Inclusion:</strong> Provide opportunities for people who previously had limited access to financial resources, making the economy fairer for all.</li>
           </ul>
         </div>
         <div className="col-lg-5 col-md-6 ">
@@ -50,15 +51,16 @@ Akhuwat Foundation's loan program can help you reach your business goals, whethe
       {/* How to Apply Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">How to Get an Akhuwat Foundation Business Loan in 3 Easy Steps Check Your Eligibility</h2>
-          <p>
+          <h2 className="fw-bold mb-3">How to Apply for an Akhuwat Foundation Business Loan in 3 Simple Steps</h2>
+          {/* <p>
           Make sure you meet the most basic requirements to apply.
-          </p>
+          </p> */}
           <ul>
-            <li><strong>Get Your Documents Ready:</strong> Get the documents you need, like your CNIC, proof of where you live, and information about your business.</li>
-            <li><strong>Please send in your application:</strong> Please send in your application </li>
-            <li><strong>Approval and Payment:</strong> Once your loan application is reviewed and accepted, the money will be sent to you right away.</li>
-            <li><strong>Repayment:</strong> Follow the agreed-upon repayment plan and pay back the loan in easy, regular installments.</li>
+            <li><strong>Check Your Eligibility:</strong> Ensure you meet the basic requirements to apply.</li>
+            <li><strong>Prepare Your Documents:</strong> Gather essentials such as your CNIC, proof of address, and business information. </li>
+            <li><strong>Submit Your Application:</strong> Send in your application online or at a nearby Akhuwat branch.</li>
+            <li><strong>Approval and Disbursement:</strong> Once approved, funds are released quickly so you can start using them immediately.</li>
+            <li><strong>Repayment:</strong> Follow the agreed repayment plan through easy, regular installments.</li>
           </ul>
         </div>
         <div className="col-lg-5 col-md-6  p-3">
@@ -80,12 +82,13 @@ Akhuwat Foundation's loan program can help you reach your business goals, whethe
       {/* Additional Information Section */}
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="fw-bold mb-3">Why Should You Get a Business Loan from Akhuwat Foundation?</h2>
+          <h2 className="fw-bold mb-3">
+Supporting Businesses, Strengthening Communities</h2>
           <p>
-            Akhuwat Foundation Business Loans are designed to help business owners at all stages, from starting out to growing their current business. Akhuwat Foundation removes financial obstacles by providing interest-free loans without needing any security. This gives people the power to fully manage their own financial journey.
+            Akhuwat Foundation Business Loans help entrepreneurs at every stage, from starting a new venture to expanding an existing business. By removing financial barriers and providing interest-free support without collateral, the foundation empowers individuals to take control of their financial journey.
           </p>
           <p>
-            This project not only helps businesses grow, but it also helps communities by making jobs available, boosting local economies, and making people's lives better all over Pakistan.
+            This program not only fuels business growth but also strengthens communities by creating jobs, boosting local economies, and improving livelihoods across Pakistan.
           </p>
         </div>
       </div>
@@ -93,9 +96,9 @@ Akhuwat Foundation's loan program can help you reach your business goals, whethe
       {/* Conclusion Section */}
       <div className="row mb-5">
         <div className="col-12 text-center">
-          <h2 className="fw-bold mb-3">Join the movement for Akhuwat Foundation right now!</h2>
+          <h2 className="fw-bold mb-3">Take the Next Step Towards Business Success</h2>
           <p>
-            Are you ready to grow your business? With Akhuwat Foundation Business Loans, you can make your business dreams come true. Open an account at the Akhuwat Foundation store closest to you or apply online right now to start your path to success.
+            Are you ready to grow your business? Akhuwat Foundation Business Loans give you the resources and support to turn your vision into reality. Visit the nearest Akhuwat branch or apply online today and start your journey toward financial independence and long-term success.
           </p>
         </div>
       </div>

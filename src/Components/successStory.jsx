@@ -28,15 +28,15 @@ const SuccessStory = () => {
         <div className={`${isMobile ? 'col-12' : 'col-lg-9'}`}>
           <main className="py-4 px-md-4 px-2 bg-light">
             <article className="bg-white shadow-sm rounded p-4 p-md-5">
-              <h1 className="fw-bold mb-4">Succes Story:The story of how Akhuwat Foundation Loans changed a person's life</h1>
+              <h1 className="fw-bold mb-4">Transform Your Life with Akhuwat Foundation Loans</h1>
               
               <p className="mb-4">
-              In today's fast-paced world, being financially stable is very important for people to reach their goals and dreams. Akhuwat Foundation isn't just about giving people money; it's also about giving them the tools they need to make the future better.
+              Imagine a young entrepreneur struggling to keep their small business afloat, or a student dreaming of completing their education but unable to pay the fees. In today’s fast-paced world, financial stability can make the difference between giving up and achieving your dreams. Akhuwat Foundation is more than just a lender; it provides the tools and support people need to create a better future.
 
               </p>
               
               <p className="mb-4">
-              This success story shows how Akhuwat Foundation Loans really change people's lives in Pakistan, from business owners and students to people who are having a hard time with money. Akhuwat Foundation has been making goals come true one loan at a time by making loans easy to get, affordable, and clear.
+              This story reflects how Akhuwat Foundation Loans have transformed lives across Pakistan. From business owners to students and individuals facing financial hardships, the foundation has helped countless people turn their goals into reality. By offering loans that are accessible, affordable, and transparent, Akhuwat Foundation continues to make dreams achievable, one loan at a time.
 
               </p>
     
@@ -48,28 +48,28 @@ const SuccessStory = () => {
                 />
               </div>
     
-              <h2 className="fw-bold mt-5 mb-4">1. Setting the stage for financial empowerment</h2>
+              <h2 className="fw-bold mt-5 mb-4">1. Empowering Every Pakistani with Accessible Loans</h2>
               
               <p className="mb-4">
-              Akhuwat Foundation Loan was created in 2024 to help regular Pakistanis who are having trouble with their money. The company's founder, Dr. Amjad Shah, saw that the standard lending system had problems, such as complicated application processes, high interest rates, and strict requirements that kept many people from getting loans. To make up for this, he came up with a way for everyone to get cheap credit.
+              In 2024, Akhuwat Foundation Loan was launched to support everyday Pakistanis struggling with financial challenges. The founder, Dr. Amjad Shah, recognized the barriers in traditional lending, including complicated applications, high interest rates, and strict requirements that kept many from accessing credit. To address this, he created a system that makes affordable loans available to everyone
               </p>
               
               <p className="mb-4">
-              The idea behind the effort was to make things easy, fair, and open to everyone. It offered low-interest loans, quick approvals, and a simple process. Akhuwat Foundation has always been about giving people from all walks of life more power. This method quickly gained trust across Pakistan and helped thousands of people get their finances in order and take charge of their lives.
+              The initiative was designed to be simple, fair, and inclusive, offering low-interest loans, fast approvals, and an easy process. Akhuwat Foundation has always focused on empowering people from all walks of life. This approach quickly earned the trust of communities across Pakistan, helping thousands stabilize their finances and take control of their futures.
               </p>
     
-              <h2 className="fw-bold mt-5 mb-4">2:  The Journey of a Student: Making Dreams Come True</h2>
+              <h2 className="fw-bold mt-5 mb-4">2:  From Struggle to Success: A Student’s Journey to Dreams Fulfilled</h2>
               
               <p className="mb-4">
-              Haseeb Ahmed was a smart student from Lahore who wanted to become an engineer. Even though he did very well in school, his family couldn't afford college fees, which could have ruined his plans. His goals seemed impossible to reach until he met Akhuwat Foundation.
+              Haseeb Ahmed, a bright young student from Lahore, dreamed of becoming an engineer. Despite excelling in school, his family could not afford the college fees, and his aspirations seemed on the verge of slipping away. It was a moment of uncertainty and fear until he discovered Akhuwat Foundation.
               </p>
               
               <p className="mb-4">
-              Akhuwat Foundation's student loan program gave Haseeb an affordable option that needed little papers and gave him a choice of how to pay back the loan. He was able to keep going to school because the loan application process went smoothly, and he was accepted within 24 hours.
+              Through Akhuwat Foundation’s student loan program, Haseeb found an affordable solution with minimal paperwork and flexible repayment options. The smooth application process allowed him to secure the loan within 24 hours, keeping his dream alive and his education on track.
               </p>
               
               <p className="mb-4">
-              Haseeb then graduated from one of the best engineering schools in Pakistan. He is now a famous civil engineer. His story is a powerful example of how Akhuwat Foundation turns people's money problems into chances and helps them make their dreams come true.
+              Today, Haseeb has graduated from one of Pakistan’s top engineering schools and is a respected civil engineer. His journey is a shining example of how Akhuwat Foundation transforms financial struggles into opportunities, turning dreams that once seemed impossible into inspiring realities.
               </p>
     
               <div className="my-5 text-center">
@@ -80,55 +80,55 @@ const SuccessStory = () => {
                 />
               </div>
     
-              <h2 className="fw-bold mt-5 mb-4">3: Helping small businesses—Sarah's progress as she grows</h2>
+              <h2 className="fw-bold mt-5 mb-4">3: Turning Struggles into Success: Sarah’s Journey as a Small Business Owner</h2>
               
               <p className="mb-4">
-               Sarah's life changed when another shop owner put her in touch with Akhuwat Foundation Loan. A nearby Akhuwat Foundation Loan Center drew her in with its easy requirements and many loan choices for business owners. The process was easy; she didn't have to fill out a lot of paperwork or make any complicated promises, and the loan was accepted quickly.
+               Sarah’s life took a hopeful turn when another shop owner introduced her to Akhuwat Foundation Loan. A nearby loan center welcomed her with simple requirements and multiple options tailored for small business owners. The process was smooth, with minimal paperwork and no burdensome promises, and her loan was approved quickly.
               </p>
               
               <p className="mb-4">
-              The money helped her buy more things for her shop and fix up the place. Her wages quickly doubled, and people in the area started shopping at her store more often.
+              With the funds, Sarah was able to stock her shop with more products and improve the space, attracting more customers. Her income soon doubled, and her store became a bustling part of the community.
               </p>
               
               <p className="mb-4">
-              The quick and friendly process that Akhuwat Foundation used was a big part of Sarah's shop's turnaround from a failing business to one that does well in the community.
+              The ease, care, and support she received from Akhuwat Foundation were instrumental in transforming her struggling business into a thriving success. Sarah’s story is a heartfelt reminder of how the right support can turn challenges into opportunities and dreams into reality.
               </p>
     
-              <h2 className="fw-bold mt-5 mb-4">4:Help with money right away—emergency support when it counts</h2>
+              <h2 className="fw-bold mt-5 mb-4">4:Immediate Help When It Matters Most: Ali’s Story of Emergency Support</h2>
               
               <p className="mb-4">
-              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Akhuwat Foundation Loan to get them through tough times.
+              Life can throw unexpected challenges your way, and financial problems often come when you least expect them. Many people in Pakistan rely on Akhuwat Foundation Loans to navigate these difficult moments.
 
 
               </p>
               
               <p className="mb-4">
-              Unexpected things can happen in life, and money problems can happen when you least expect them. A lot of people in Pakistan depend on Akhuwat Foundation Loan to get them through tough times.
+              Take Ali’s story, for example. With no savings and urgent hospital bills to pay, he turned to Akhuwat Foundation for help. His loan was approved almost immediately, and the funds were disbursed without delay.
 
 
 
               </p>
               
               <p className="mb-4">
-              Look at Ali's tale. He asked Akhuwat Foundation for a loan because he had no savings and had to pay for hospital bills right away. His request was granted almost right away, and the money was sent right away.
+              Thanks to the flexible terms, Ali managed the crisis without falling deeper into debt. Today, he is financially stable and in good health, forever grateful to Akhuwat Foundation for providing timely support when he needed it most.
               </p>
               
-              <p className="mb-4">
+              {/* <p className="mb-4">
               Ali was able to handle his position without getting deeper in debt because the terms of his loans were flexible. He is now financially comfortable and in good health, and he is thankful that Akhuwat Foundation helped him through one of the hardest times in his life.
-              </p>
+              </p> */}
     
-              <h2 className="fw-bold mt-5 mb-4">5: Helping Farhan Buy a House—A Dream Come True</h2>
+              <h2 className="fw-bold mt-5 mb-4">5: Helping Farhan Buy a Home—Turning a Dream into Reality</h2>
               
               <p className="mb-4">
-              Many Pakistanis want to own their own home, but rising home prices make that dream hard to reach. Many families have been able to move into their own houses thanks to Akhuwat Foundation's easy-to-repay home loans.
+              Owning a home is a dream for many Pakistanis, yet skyrocketing prices often put it out of reach. Thanks to Akhuwat Foundation’s affordable and easy-to-repay home loans, countless families have finally moved into their own homes.
               </p>
               
               <p className="mb-4">
-              A middle-class worker from Rawalpindi named Farhan Sheikh had been putting money away for years but still couldn't get enough to buy a house. At that point, he asked Akhuwat Foundation for help.
+              Farhan Sheikh, a hardworking middle-class professional from Rawalpindi, had been saving for years but still couldn’t afford a house. That’s when he turned to Akhuwat Foundation for support.
               </p>
               
               <p className="mb-4">
-              It was quick and easy to do. This week, Farhan got the loan he needed to make the down payment. Now, he and his family live in their own home, finally making a dream come true that seemed impossible at first.
+              The process was fast and straightforward. Within a short time, Farhan received the loan he needed for the down payment. Today, he and his family are living in their own home, proving that with the right support, even dreams that seem impossible can come true.
               </p>
     
               <div className="my-5 text-center">
@@ -139,30 +139,30 @@ const SuccessStory = () => {
                 />
               </div>
     
-              <h2 className="fw-bold mt-5 mb-4">6: Ghulam's Changes: Making Agriculture Stronger with Akhuwat Foundation</h2>
+              <h2 className="fw-bold mt-5 mb-4">6: Ghulam’s Transformation: Boosting Agriculture with Akhuwat Foundation</h2>
               
               <p className="mb-4">
-              It's not just professionals in cities that can use Akhuwat Foundation Loan; its agricultural loan plan also helps people in rural areas. A lot of farmers in Pakistan have trouble paying for things they need, like good seeds, fertilizer, and new tools that would help them make more money and increase their crops.
+              Akhuwat Foundation’s agricultural loans help rural farmers access essential tools, seeds, and resources. Ghulam Abbas from Multan struggled with outdated methods and low income until he applied for support. Within a week, his loan was approved, allowing him to upgrade equipment and irrigation. His crop yield tripled, and his income rose, transforming his farm and securing a better future for his family.
 
               </p>
               
-              <p className="mb-4">
+              {/* <p className="mb-4">
               Ghulam Abbas, a farmer from Multan with a lot of knowledge, had to deal with these problems. Even after years of hard work, his income stayed low because he used old gardening methods. He knew that using new tools would help him get more crops and support his family better. But standard banks wouldn't lend him money because they saw farming as a risky business.
               </p>
               
               <p className="mb-4">
               Ghulam then looked at Akhuwat Foundation. In less than a week, his application was accepted. He used the money to buy better seeds, set up a new watering system, and improve his plowing tools. His crop production tripled as a result, and his pay went up a lot.
 
-              </p>
+              </p> */}
     
-              <h2 className="fw-bold mt-5 mb-4">How Akhuwat Foundation is Changing Lives: A Look at the Effects</h2>
+              <h2 className="fw-bold mt-5 mb-4">Transforming Lives Across Pakistan</h2>
               
               <p className="mb-4">
-              Akhuwat Foundation Loan has given people all over Pakistan chances that have changed their lives, from students and business owners to farms and families. The lives of Hassan, Sarah, Ali, Farhan, and Ghulam show that getting fair and easy borrowing can open the door to a better future.
+              Akhuwat Foundation Loans are changing lives nationwide, supporting students, business owners, farmers, and families. Stories like those of Hassan, Sarah, Ali, Farhan, and Ghulam show how fair and accessible financing can open the door to new opportunities and a brighter future.
               </p>
               
               <p className="mb-4">
-              Akhuwat Foundation Loan Scheme 2025 is happy to offer clear, low-cost financial options that break down barriers and give people power. Our goal is simple: to give every Pakistani the tools they need to make tomorrow safer and brighter.
+              The Akhuwat Foundation Loan Scheme 2025 provides clear, low-cost financial solutions designed to remove barriers and empower people. Its mission is simple: to give every Pakistani the tools they need for a safer, more secure, and hopeful tomorrow.
 
 
               </p>

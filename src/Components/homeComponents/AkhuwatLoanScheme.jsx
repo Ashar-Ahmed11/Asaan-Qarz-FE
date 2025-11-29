@@ -7,15 +7,19 @@ const AkhuwatLoanScheme = ()=>{
       <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-5 " >
-            <h1 className="fw-bold mb-4">Plan for Giving Credit to Akhuwat Foundation</h1>
+            <h1 className="fw-bold mb-4">Support Lives with Akhuwat Foundation Credit</h1>
             
             <p className="mb-4 fw-bold mt-1">
-            Akhuwat Foundation has a credit system that is easy to understand, open to everyone, and made to work for everyone. It makes it easy for people to get money because the payment system is simple and the application process is quick and doesn't require much papers. It is a popular choice in Pakistan because the interest rates are so low.
+            Akhuwat Foundation’s credit system is designed with compassion and fairness at its heart, making it accessible to everyone and easy to use. The simple application process and minimal paperwork ensure that anyone in need can get support quickly, without unnecessary stress, while the low or interest-free rates make a real difference in people’s lives.
+            </p>
+            <p className="mb-4 fw-bold mt-1">
+            By supporting Akhuwat Foundation, you’re not just giving money but you’re giving hope, opportunity, and a chance for someone to build a better future. Every loan helps families cover medical bills, start businesses, pursue education, and improve their lives. The friendly and dedicated staff at the head office are always there to guide you, ensuring the process is smooth, supportive, and filled with care.
             </p>
             
             <div className="border-start border-primary border-4 ps-3 mb-4 mt-1">
               <p className="mb-0">
-              Anyone from the Akhuwat Foundation head office can help you if you ever need it or aren't sure what to do. Their helpful and friendly staff is always ready to help you and make sure your experience goes smoothly and without any stress.
+              When you contribute or participate, you become part of a movement that uplifts communities and spreads kindness, showing that even small acts of support can create lasting change in someone’s life.
+
               </p>
             </div>
           </div>

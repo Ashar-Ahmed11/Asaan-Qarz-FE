@@ -8,26 +8,28 @@ const akhuwatLoanServices = () => {
   return (
     <div className="container-fluid px-4 py-4" style={{ maxWidth: "1000px", margin: "0 auto" , fontSize:"22px"}}>
       <div className="text-center mb-5">
-        <h1 className="fw-bold mb-3">Akhuwat Foundation Loan Services in Pakistan Can Help You Get What You Want and Grow</h1>
+        <h1 className="fw-bold mb-3">Akhuwat Foundation Loan Services: Helping You Build a Brighter Future</h1>
         <p className="lead mx-auto" style={{ maxWidth: "900px" }}>
-        Akhuwat Foundation can help you and your business get on the path to financial freedom by giving you custom loan options. Akhuwat Foundation offers simple, interest-free loans that give you the confidence to move forward and achieve long-term success, whether your goal is to go to college, grow your business, or buy a house.
+        Akhuwat Foundation empowers individuals, students, business owners, and families across Pakistan with tailored loan solutions. By offering simple, interest-free loans, Akhuwat Foundation helps you take confident steps toward achieving your dreams, whether it’s completing your education, growing your business, or owning a home.
         </p>
+          <h1 className="fw-bold mb-3">What We Offer to Our Customers:</h1>
       </div>
 
       {/* Personal Loans Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">1. Personal loans to help you reach your goals in life</h2>
+          <h2 className="fw-bold mb-3">1. Personal Loans: Achieve Your Life Goals</h2>
           <p>
-          Personal loans from Akhuwat Foundation can help you get the money you need for any reason, like a medical emergency, a family event, or other personal wants. You can focus on what's important without having to worry about high payments when there are no interest charges.
+           Personal loans from Akhuwat Foundation provide financial support for any urgent need, from medical emergencies to family events or personal projects. Without the burden of interest, you can focus on what truly matters.
 
 
           </p>
           <ul>
-            <li>Easy to Qualify: Akhuwat Foundation has clear and simple standards for who can apply, so it's easy for everyone.</li>
-            <li>Flexible Repayments: Your repayment plans are made to fit your budget, so you can easily make your payments.</li>
-            <li>Quick Approval: Quick processing lets you get the money you need without having to wait too long.</li>
+            <li>Easy Eligibility: Simple and clear requirements make applying straightforward for everyone.</li>
+            <li>Flexible Repayments: Plans are designed to match your budget, so payments remain manageable.</li>
+            <li>Fast Approval: Quick processing ensures you receive funds when you need them most.</li>
           </ul>
+          <p>Thousands of people have used personal loans to secure their future and meet urgent needs.</p>
         </div>
         <div className="col-lg-5 col-md-6 text-center"
                 >
@@ -52,15 +54,18 @@ const akhuwatLoanServices = () => {
       {/* Business Loans Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">2. Business loans: giving entrepreneurs the tools they need to succeed</h2>
+          <h2 className="fw-bold mb-3">2. Business Loans: Empowering Entrepreneurs</h2>
           <p>
-          Akhuwat Foundation gives out interest-free business loans to help you start up or expand your business. Whether your business is new or has been around for a while, these loans can help you get the money you need to grow, buy resources, or make a bigger effect. Akhuwat Foundation works with many different types of businesses, from tech to retail, and has clear terms and no hidden fees. This lets companies focus on long-term growth.
+          Akhuwat Foundation provides interest-free loans to help businesses start, expand, or invest in new resources. Whether your venture is in technology, retail, or any other industry, these loans offer the financial boost needed for long-term growth without hidden fees or complicated terms.
           </p>
           <ul>
-            <li>Different ways to meet your short- and long-term money goals</li>
-            <li>Clear services with no extra costs</li>
-            <li>Available for a wide range of industries, such as technology, shopping, and more</li>
+            <li><b>Support for Various Goals:</b> Funding options cover both short-term and long-term business needs.</li>
+            <li><b>Transparent Terms:</b> No extra costs or hidden charges.</li>
+            <li><b>Accessible for Many Industries:</b> Loans available for a wide range of businesses, from tech startups to retail stores.</li>
           </ul>
+          <p>
+          These loans allow entrepreneurs to focus on growth and building a strong business.
+          </p>
         </div>
         
       </div>
@@ -68,15 +73,18 @@ const akhuwatLoanServices = () => {
       {/* Education Loans Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">3. Student loans: Putting money into your bright future</h2>
+          <h2 className="fw-bold mb-3">3. Student Loans: Investing in Your Future</h2>
           <p>
-      We at Akhuwat Foundation think that education can change people's lives. Our interest-free student loans are designed to help you with your schoolwork, whether you need money for books, fees, or just to live on. The goal of these loans is to get rid of financial problems so that you can focus on your studies and future.
+       Education has the power to transform lives. Akhuwat Foundation’s interest-free student loans help cover tuition, books, and living expenses, so you can focus on your studies without financial stress.
           </p>
           <ul>
-            <li>Payment for all or some of your school costs</li>
-            <li>Loans with no interest to ease financial stress</li>
-            <li>Plans that are easy to follow and begin after graduation</li>
+            <li><b>Comprehensive Support:</b> Loans can cover all or part of your educational expenses.</li>
+            <li><b>Interest-Free:</b> No added financial burden, making it easier to pursue your goals.</li>
+            <li><b>Flexible Repayment:</b> Repayments begin after graduation to allow you to establish your career first.</li>
           </ul>
+          <p>
+       These loans give students the chance to pursue their dreams and build a successful future.
+          </p>
         </div>
 
         <div className="col-lg-5 col-md-6 text-center p-3 "
@@ -102,15 +110,21 @@ const akhuwatLoanServices = () => {
       {/* Housing Loans Section */}
       <div className="row mb-5 align-items-center">
         <div className="col-lg-7 col-md-6">
-          <h2 className="fw-bold mb-3">4. Home loans: getting the house of your dreams</h2>
+          <h2 className="fw-bold mb-3">4.  Home Loans: Making Your Dream Home a Reality</h2>
           <p>
-          Akhuwat Foundation's interest-free home loans are made to make it easy for you to reach a big goal in your life: owning a house. Our housing loans give you the money you need without the hassle of interest, whether you're buying a new home or fixing up an old one.
+           Owning a home is one of life’s biggest milestones. Akhuwat Foundation offers interest-free home loans that make buying or renovating a house accessible and stress-free.
           </p>
           <ul>
-            <li>There are several loan choices for buying or fixing up homes.</li>
-            <li>Easy application process with little paperwork and quick approval</li>
-            <li>payback plans that are easy on the wallet and make owning a home really doable</li>
+            <li>Multiple Options: Loans for purchasing new homes or improving existing ones.</li>
+            <li>Simple Process: Minimal paperwork and fast approvals.</li>
+            <li>Affordable Repayment: Flexible plans that make homeownership truly achievable.</li>
           </ul>
+          <p>
+           
+
+Thousands of families have turned their dream of owning a home into reality with Akhuwat Foundation’s support.
+
+          </p>
         </div>
         
         

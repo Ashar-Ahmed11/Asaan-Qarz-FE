@@ -9,15 +9,15 @@ const Cards = () => {
       {/* <p className='w-70% text-center'>Akhuwat Foundation LOAN</p> */}
       <p className='w-70% text-center' style={{paddingTop:'26px'}}>Akhuwat Foundation LOAN</p>
       
-      <h1 ><b>Our Services</b></h1>
-        <h1><b>If you want a better future, apply today.</b></h1>
+      <h1 ><b>What We Offer</b></h1>
+        <h1><b>Your First Step To A Brighter Future</b></h1>
         <div className="row mt-5 d-flex justify-content-center flex-wrap">
           <div className="col-md-4 col-12 mt-4">
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-money" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Loans for individuals at Akhuwat Foundation</h5>
-                <p className="card-text">You can get a personal loan from the Akhuwat Foundation for up to Rs. 2.5 million. The amount of loan you can get depends on your income, credit history, debt-to-income ratio, and job status, among other things. These people must be between the ages of 24 and 60. The Akhuwat Foundation's website lets you keep track of the progress of your loan application, giving you real-time information and keeping you in the loop at all times.</p>
+                <h5 className="card-title">Loans for Individuals</h5>
+                <p className="card-text"> Akhuwat Foundation offers personal loans of up to Rs. 2.5 million, with eligibility based on factors like your income, credit history, debt-to-income ratio, and employment status. Applicants must be between 24 and 60 years old. You can easily track the status of your loan application through the Akhuwat Foundation website, allowing you to stay updated and informed at every step.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -26,8 +26,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-suitcase" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Akhuwat Foundation Business Loan</h5>
-                <p className="card-text">Akhuwat Foundation makes it easier to get a business loan by letting you apply online from your office. These loans are meant to help with short-term cash flow problems, and choices on approval are usually made within a few hours. The application process is quick and doesn't require much paperwork, so you can focus on building your business without having to wait around.</p>
+                <h5 className="card-title">Business Loan</h5>
+                <p className="card-text">Akhuwat Foundation makes business financing simple by allowing you to apply online directly from your workplace. These loans are created to support short-term cash flow needs, and approval decisions are usually made within a few hours. The application process is quick, easy, and requires minimal documentation, allowing you to stay focused on growing your business without unnecessary delays.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -36,8 +36,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-eye" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Home Loan in Akhuwat Foundation</h5>
-                <p className="card-text">In Pakistan, the Akhuwat Foundation helps people buy, build, or fix up their homes by giving them housing loans. With an easy application process and quick access to funds, the Akhuwat Foundation Home Loan is a great choice for people who need money for housing quickly and without a lot of trouble.</p>
+                <h5 className="card-title">Loan for Home</h5>
+                <p className="card-text">In Pakistan, the Akhuwat Foundation offers housing loans that help individuals purchase, build, or renovate their homes. With a simple application process and fast access to funds, the Akhuwat Foundation Home Loan is an excellent option for anyone looking for quick and hassle-free financial support for their housing needs.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -46,8 +46,8 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-suitcase" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Credit for a wedding</h5>
-                <p className="card-text">To make sure your big day goes exactly as planned, Akhuwat Foundation offers wedding loans to cover all of your wedding costs. You can take anywhere from PKR 500,000 to PKR 6,000,000, and you have 10 to 36 months to pay it back. There is no need to put up security for these loans, and funds are usually sent out within 24 hours for returning customers. This makes managing your wedding finances simple and stress-free.</p>
+                <h5 className="card-title">Wedding Loan</h5>
+                <p className="card-text">Akhuwat Foundation provides convenient wedding loans to help you manage all the expenses for your big day. You can borrow from PKR 500,000 up to PKR 6,000,000, with a repayment period ranging from 10 to 36 months. These loans do not require any collateral, and returning customers often receive funds within 24 hours, making wedding planning easier and far less stressful.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>
@@ -56,9 +56,9 @@ const Cards = () => {
             <div data-aos="zoom-in" data-aos-duration="1000" className="h-100 card border-0 rounded-0">
               <div className="card-body text-start m-4">
                 <i class="fa pb-3 fa-refresh" aria-hidden="true" style={{ fontSize: "40px", color: color }}></i>
-                <h5 className="card-title">Easy Ways to Get a Car Loan
+                <h5 className="card-title">Car Loan
                 </h5>
-                <p className="card-text">Akhuwat Foundation offers car loans with interest rates as low as 1% per year, which can cover the full on-road cost of your car. You can choose a loan term that works for your budget if the repayment choices are flexible. The easy application process means that loans are approved quickly, and current customers usually get their money within 48 hours. With Akhuwat Foundation, it's easy and stress-free to get the car of your dreams.</p>
+                <p className="card-text">Akhuwat Foundation provides car loans with interest rates starting at just 1% per year, covering the complete on-road price of your vehicle. You can pick a repayment plan that fits your budget thanks to flexible installment options. The application process is simple, approvals are fast, and existing customers often receive funds within 48 hours. With Akhuwat Foundation, owning your dream car becomes a quick and hassle-free experience.</p>
                 <a href="/" className="btn btn-primary border-0 rounded-0" style={{ backgroundColor: color }}>Contact US</a>
               </div>
             </div>

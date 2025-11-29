@@ -73,9 +73,9 @@ const AkhuwatLoanStatus = () => {
 
         {/* Right column: Info */}
         <div className="col-md-6 p-5">
-          <h2 className="fw-bold mb-3">You can check on your loan at any time.</h2>
+          <h2 className="fw-bold mb-3">How to Keep Track of Your Loan Status?</h2>
           <p>
-            Entering your CNIC number is all it takes to see where your Akhuwat Foundation loan application stands right now. You can use the Akhuwat Foundation Loan WhatsApp Helpline to get help or ask questions.
+            You can track your loan anytime. Simply enter your CNIC number to see the current status of your Akhuwat Foundation loan application. For assistance or any questions, you can also reach out through the Akhuwat Foundation Loan WhatsApp Helpline.
           </p>
         </div>
       </div>
