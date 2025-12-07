@@ -81,12 +81,12 @@ const AppState = (props) => {
 };
   console.log(imgUrl)
 
-
+  // https://akhuwatasaanbe.vercel.app
 
 
 const mailSend = async (to) => {
   try {
-    const res = await fetch("https://akhuwatasaanbe.vercel.app/api/user/send-email", {
+    const res = await fetch("https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -122,7 +122,7 @@ const mailSend = async (to) => {
     // settheProductLoader(true)
 
 
-    const url = "https://akhuwatasaanbe.vercel.app/api/auth/login"
+    const url = "https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/auth/login"
     const response = await fetch(url, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
@@ -158,7 +158,7 @@ const mailSend = async (to) => {
     try {
     
     setloadingNumber(true);
-    const responseThree = await fetch("https://akhuwatasaanbe.vercel.app/api/number/all-numbers", {
+    const responseThree = await fetch("https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/number/all-numbers", {
       method: "GET", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -183,12 +183,102 @@ const mailSend = async (to) => {
 
   }
 
+  // dynamic editable content: Home page
+  const [homeContent, setHomeContent] = useState(null)
+  const [homeLoaded, setHomeLoaded] = useState(false)
+
+  const getHomeData = async () => {
+    try {
+      const res = await fetch("https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/home/gethome", {
+        method: "GET",
+        headers: { "Content-Type": "application/json", "Accept": "*" },
+      });
+      const data = await res.json();
+      setHomeContent(data?.fields || {});
+    } catch (e) {
+      console.error("getHomeData error:", e);
+    } finally {
+      setHomeLoaded(true);
+    }
+  };
+
+  const updateHomeData = async (fieldsUpdate) => {
+    try {
+      const res = await fetch("https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/home/edithome", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "*",
+          "auth-token": adminToken
+        },
+        body: JSON.stringify({ fields: fieldsUpdate })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error || "Failed to update content");
+      setHomeContent(data?.fields || {});
+      return true;
+    } catch (e) {
+      console.error("updateHomeData error:", e);
+      return false;
+    }
+  };
+
+  // Generic per-page content storage
+  const [contentByPage, setContentByPage] = useState({})
+  const [contentLoadedByPage, setContentLoadedByPage] = useState({})
+
+  const getPageContent = async (slug) => {
+    try {
+      const res = await fetch(`https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/content/${slug}`, {
+        method: "GET",
+        headers: { "Content-Type": "application/json", "Accept": "*" },
+      });
+      const data = await res.json();
+      setContentByPage((prev)=> ({ ...prev, [slug]: data?.fields || {} }));
+      setContentLoadedByPage((prev)=> ({ ...prev, [slug]: true }));
+      return data?.fields || {};
+    } catch (e) {
+      console.error("getPageContent error:", e);
+      setContentLoadedByPage((prev)=> ({ ...prev, [slug]: true }));
+      return {};
+    }
+  };
+
+  const updatePageContent = async (slug, fieldsUpdate) => {
+    try {
+      const res = await fetch(`https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/content/${slug}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "*",
+          "auth-token": adminToken
+        },
+        body: JSON.stringify({ fields: fieldsUpdate })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error || "Failed to update content");
+      setContentByPage((prev)=> ({ ...prev, [slug]: data?.fields || {} }));
+      setContentLoadedByPage((prev)=> ({ ...prev, [slug]: true }));
+      return true;
+    } catch (e) {
+      console.error("updatePageContent error:", e);
+      return false;
+    }
+  };
+
+  const ensurePageContent = async (slug) => {
+    if (contentByPage[slug]) return contentByPage[slug];
+    return await getPageContent(slug);
+  };
+
+  const isPageContentLoaded = (slug) => !!contentLoadedByPage[slug];
+
   const [editLoader, setEditLoader] = useState(false)
 
   const editSiteInfo = async () => {
     setEditLoader(true)
     const { loanfee, description, phone, easypaisa, jazzcash } = siteData
-    const responseThree = await fetch(`https://akhuwatasaanbe.vercel.app/api/number/edit-number`, {
+    const responseThree = await fetch(`https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/number/edit-number`, {
       method: "PUT", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -211,7 +301,7 @@ const mailSend = async (to) => {
 
     const { loanStatus } = siteData;
     const token = adminToken
-    const response = await fetch(`https://akhuwatasaanbe.vercel.app/api/user/update-loan-status/${siteData.id}`, {
+    const response = await fetch(`https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/update-loan-status/${siteData.id}`, {
       method: "PUT", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -242,7 +332,7 @@ const mailSend = async (to) => {
     };
     setCreateUserLoader(true)
     try {
-      const res = await fetch("https://akhuwatasaanbe.vercel.app/api/user/create", {
+      const res = await fetch("https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -288,7 +378,7 @@ const mailSend = async (to) => {
   const [users, setUsers] = useState([]);
   const fetchUsers = async () => {
     try {
-      const res = await fetch('https://akhuwatasaanbe.vercel.app/api/user/get-users',
+      const res = await fetch('https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/get-users',
         {
           method: "GET", // *GET, POST, PUT, DELETE, etc.
           mode: "cors", // no-cors, *cors, same-origin
@@ -318,7 +408,7 @@ const mailSend = async (to) => {
 
   const fetchUserByCnic = async (cnic) => {
     try {
-      const response = await fetch(`https://akhuwatasaanbe.vercel.app/api/user/user-by-cnic/${cnic}`);
+      const response = await fetch(`https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/api/user/user-by-cnic/${cnic}`);
       if (!response.ok) throw new Error("User not found");
       const data = await response.json();
       return data;
@@ -330,6 +420,7 @@ const mailSend = async (to) => {
 
   useEffect(() => {
     getAppData()
+    getHomeData()
   }, [])
 
 
@@ -340,7 +431,7 @@ const mailSend = async (to) => {
 
     console.clear()
   return (
-    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate }}>
+    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, homeContent, homeLoaded, getHomeData, updateHomeData, contentByPage, contentLoadedByPage, getPageContent, updatePageContent, ensurePageContent, isPageContentLoaded, logoutAdmin: ()=>{ setAdminToken(null); setAdmin(false) } }}>
       {props.children}
     </AppContext.Provider>
   )

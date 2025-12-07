@@ -3,6 +3,8 @@ import CountUp from 'react-countup';
 import Akhuwat4 from '../../Images/newAkhuwat4.jpg'
 import Akhuwat5 from '../../Images/newAkhuwat5.jpg'
 import asaanQarz2 from '../../Images/asan qarz2.jpg'
+import Editable from '../shared/Editable';
+import { CDNImage } from '../shared/cdn';
 
 const WhyChooseAkhuwat = () => {
   return (
@@ -13,18 +15,19 @@ const WhyChooseAkhuwat = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-12 mb-3">
-            <p className="text-uppercase fw-bold">SERVICES</p>
+            <p className="text-uppercase fw-bold">
+              <Editable page="home" field="services_label" defaultHtml={"SERVICES"} />
+            </p>
           </div>
         </div>
 
         <div className="row align-items-center">
           <div className="col-lg-5">
             <h2 className="fw-bold mb-4 display-5">
-            Why Choose Akhuwat Foundation Loans?
+              <Editable page="home" field="whyChoose_title" defaultHtml={"Why Choose Akhuwat Foundation Loans?"} />
             </h2>
             <p>
-           Akhuwat Foundation stands out as Pakistan’s only organization offering truly interest-free loans (Qarz-e-Hasna) to people in need. Unlike traditional banks, its core mission is to support communities rather than earn profit. Whether you need help with medical expenses, education, or starting a business, Akhuwat provides accessible financial support without hidden charges or processing fees. You can apply easily online or visit a nearby branch, making the process convenient for everyone. With a focus on reducing poverty, Akhuwat Foundation offers transparent, compassionate, and empowering financial solutions designed to help people improve their lives.
-
+              <Editable page="home" field="whyChoose_para" defaultHtml={"Akhuwat Foundation stands out as Pakistan’s only organization offering truly interest-free loans (Qarz-e-Hasna) to people in need. Unlike traditional banks, its core mission is to support communities rather than earn profit. Whether you need help with medical expenses, education, or starting a business, Akhuwat provides accessible financial support without hidden charges or processing fees. You can apply easily online or visit a nearby branch, making the process convenient for everyone. With a focus on reducing poverty, Akhuwat Foundation offers transparent, compassionate, and empowering financial solutions designed to help people improve their lives."} />
             </p>
           </div>
 
@@ -35,7 +38,7 @@ const WhyChooseAkhuwat = () => {
                   className="position-relative h-100"
                   style={{ minHeight: "350px" }}
                 >
-                  <img
+                  <CDNImage
                     src={Akhuwat4}
                     alt="Money Received"
                     className="img-fluid rounded w-100 h-100"
@@ -57,7 +60,7 @@ const WhyChooseAkhuwat = () => {
                   className="position-relative h-100"
                   style={{ minHeight: "350px" }}
                 >
-                  <img
+                  <CDNImage
                     src={Akhuwat5}
                     alt="Founder"
                     className="img-fluid rounded w-100 h-100"

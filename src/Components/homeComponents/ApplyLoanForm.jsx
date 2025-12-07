@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import AppContext from "../context/appContext";
 import Akhuwat13 from '../../Images/newAkhuwat13.jpg'
 import { Link } from "react-scroll";
+import Editable from '../shared/Editable';
 const ApplyLoanForm = () => {
   const { fetchUserByCnic } = useContext(AppContext);
   const [cnicNumber, setCnicNumber] = useState("");
@@ -314,7 +315,9 @@ const ApplyLoanForm = () => {
 
         {/* Right column: Info */}
         <div className="col-md-6 p-5 order-1 order-md-2">
-          <h2 className="fw-bold mb-3">Akhuwat Foundation - Quick Apply 2025</h2>
+          <h2 className="fw-bold mb-3">
+            <Editable page="home" field="quickApply_title" defaultHtml={"Akhuwat Foundation - Quick Apply 2025"} />
+          </h2>
           {/* <p>
             Entering your CNIC number is all it takes to see where your Akhuwat Foundation loan application stands right now. You can use the Akhuwat Foundation Loan WhatsApp Helpline to get help or ask questions.
           </p> */}

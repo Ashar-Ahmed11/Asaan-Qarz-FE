@@ -25,7 +25,8 @@ import Admin from './Components/adminPanel/admin';
 import Dashboard from './Components/adminPanel/dashboard';
 import AllUsers from './Components/adminPanel/allUser';
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
-
+import ScreenLoader from './Components/screenLoader';
+import MetaDecorator from './Components/metaDecorator';
 function App() {
   const context = useContext(AppContext)
   const location = useLocation()
@@ -64,26 +65,40 @@ const color = "#108515"
 
       {(location.pathname !== "/admin" && location.pathname !== "/admin-dashboard") && <Navbar />}
 
+
+      <ScreenLoader />
+
+
       <Switch>
         <Route exact path="/">
+          <MetaDecorator title="Akhuwat Foundation Loan Scheme: Easy 2025 Loan Apply" description="Akhuwat Foundation stands out as Pakistan’s only organization offering truly interest-free loans (Qarz-e-Hasna) to people in need." />
           <Home />
         </Route>
         <Route exact path="/success-story">
+      <MetaDecorator title="Success Stories | Akhuwat Foundation Loan Scheme" description="This story reflects how Akhuwat Foundation Loans have transformed lives across Pakistan. From business owners to students and individuals facing financial hardships, the foundation has helped countless people turn their goals into reality." />
+
           <SuccessStory />
         </Route>
         <Route exact path="/akhuwat-loan-service">
+        <MetaDecorator title="Akhuwat Loan Services | Akhuwat Foundation Loan Scheme" description="Akhuwat Foundation empowers individuals, students, business owners, and families across Pakistan with tailored loan solutions." />
+
           <AkhuwatLoanService />
         </Route>
         <Route exact path="/akhuwat-bussiness-loan">
+        <MetaDecorator title="Akhuwat Business Loan | Akhuwat Foundation Loan Scheme" description="Starting or growing a business in Pakistan can be challenging, especially without access to funding. Akhuwat Foundation Business Loans provide interest-free financial support to help entrepreneurs overcome these barriers." />
+
           <AkhuwatBussinessLoan />
         </Route>
         <Route exact path="/akhuwat-house-loan">
+        <MetaDecorator title="Akhuwat House Loan | Akhuwat Foundation Loan Scheme" description="For many Pakistanis, owning a home feels like an impossible dream. Rising property prices, strict bank requirements, and high interest rates often stand in the way. But for families across the country, Akhuwat Foundation is changing that story." />
           <AkhuwatHouseLoan />
         </Route>
         <Route exact path="/about-us">
+        <MetaDecorator title="About Us | Akhuwat Foundation Loan Scheme" description="At Akhuwat Foundation Loan, our focus is on people. We believe that everyone deserves access to loans they can manage, no matter their financial background." />
           <AboutUs />
         </Route>
         <Route exact path="/contact-us">
+        <MetaDecorator title="Contact Us | Akhuwat Foundation Loan Scheme" description="At Akhuwat Foundation Loan, we believe that every financial journey deserves care, attention, and clarity." />
           <ContactUS />
         </Route>
         <Route exact path="/privacy-policy">

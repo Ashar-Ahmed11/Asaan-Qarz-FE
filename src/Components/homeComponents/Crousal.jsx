@@ -2,6 +2,8 @@ import React, { useEffect, useState, useContext } from 'react';
 import AppContext from '../context/appContext';
 import coverImage from '../../Images/Carousalimg.jpg'
 import { Link } from 'react-scroll';
+import Editable from '../shared/Editable';
+import { toCdn } from '../shared/cdn';
 const Crousal = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [uploading, setUploading] = useState(false); // New loading state
@@ -34,7 +36,7 @@ const color = "#108515"
       style={{
         height: '800px',
         backgroundImage:
-          `url(${coverImage})`,
+          `url(${toCdn(coverImage)})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -63,7 +65,7 @@ const color = "#108515"
             className={`${isMobile ? 'fw-bold fs-3' : 'display-5 fw-bold px-5'}`}
             style={{ color: 'white' }}
           >
-            The Akhuwat Foundation Loan Program- the most reliable and helpful loan provider in Pakistan.
+            <Editable page="home" field="hero_title" defaultHtml={"The Akhuwat Foundation Loan Program- the most reliable and helpful loan provider in Pakistan."} />
           </h1>
         </div>
 
@@ -105,7 +107,7 @@ const color = "#108515"
                   color: '#108515'
                 }}
               >
-                Akhuwat Foundation
+                <Editable page="home" field="hero_brand" defaultHtml={"Akhuwat Foundation"} />
               </span>
             </div>
             {/* <span
@@ -117,7 +119,7 @@ const color = "#108515"
             >
               
             </span> */}
-<Link class="btn btn-primary" to="loan-form"  role="button" style={{backgroundColor:'#108515', color:'white'}} type="button" >Apply Loan</Link>
+<Link class="btn btn-primary" to="loan-form"  role="button" style={{backgroundColor:'#108515', color:'white'}} type="button" ><Editable page="home" field="hero_cta" defaultHtml={"Apply Loan"} /></Link>
           </div>
         </div>
       </div>

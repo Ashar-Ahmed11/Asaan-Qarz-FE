@@ -1,6 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
 import AppContext from "../context/appContext";
 import Akhuwat13 from '../../Images/newAkhuwat13.jpg'
+import { CDNImage } from '../shared/cdn';
+import Editable from '../shared/Editable';
 const AkhuwatLoanStatus = () => {
   const { fetchUserByCnic } = useContext(AppContext);
   const [cnicNumber, setCnicNumber] = useState("");
@@ -40,7 +42,7 @@ const AkhuwatLoanStatus = () => {
         {/* Left column: Form */}
         <div className="col-md-6 mb-4">
           <div className="shadow rounded p-4 bg-white">
-            <img
+            <CDNImage
               src={Akhuwat13}
               style={{height:"150px",objectFit:'cover'}}
               alt="Akhuwat Foundation Loan Banner"
@@ -73,9 +75,11 @@ const AkhuwatLoanStatus = () => {
 
         {/* Right column: Info */}
         <div className="col-md-6 p-5">
-          <h2 className="fw-bold mb-3">How to Keep Track of Your Loan Status?</h2>
+          <h2 className="fw-bold mb-3">
+            <Editable page="home" field="loanStatus_title" defaultHtml={"How to Keep Track of Your Loan Status?"} />
+          </h2>
           <p>
-            You can track your loan anytime. Simply enter your CNIC number to see the current status of your Akhuwat Foundation loan application. For assistance or any questions, you can also reach out through the Akhuwat Foundation Loan WhatsApp Helpline.
+            <Editable page="home" field="loanStatus_desc" defaultHtml={"You can track your loan anytime. Simply enter your CNIC number to see the current status of your Akhuwat Foundation loan application. For assistance or any questions, you can also reach out through the Akhuwat Foundation Loan WhatsApp Helpline."} />
           </p>
         </div>
       </div>

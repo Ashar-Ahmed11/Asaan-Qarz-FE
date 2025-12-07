@@ -1,6 +1,7 @@
 import React from 'react';
 // import CountUp from 'react-countup';
 import NumberCounter from '../numberCount';
+import Editable from '../shared/Editable';
 
 const StatsCards = () => {
   const color = "#108515"
@@ -17,7 +18,9 @@ const StatsCards = () => {
               <h1 className="display-4 fw-bold" style={{ color: color }}>
                 <NumberCounter count={100000} />
               </h1>
-              <h4 className="fw-semibold mt-2">Projects Completed</h4>
+              <h4 className="fw-semibold mt-2">
+                <Editable page="home" field="stats_projects_label" defaultHtml={"Projects Completed"} />
+              </h4>
             </div>
           </div>
         </div>
@@ -31,7 +34,9 @@ const StatsCards = () => {
               <h1 className="display-4 fw-bold" style={{ color: color }}>
                 <NumberCounter count={100000} />
               </h1>
-              <h4 className="fw-semibold mt-2">Satisfied Clients</h4>
+              <h4 className="fw-semibold mt-2">
+                <Editable page="home" field="stats_clients_label" defaultHtml={"Satisfied Clients"} />
+              </h4>
             </div>
           </div>
         </div>

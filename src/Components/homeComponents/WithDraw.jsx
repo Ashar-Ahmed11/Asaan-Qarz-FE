@@ -1,10 +1,13 @@
 import React from 'react'
+import Editable from '../shared/Editable'
 
 const WithDraw = () => {
   return (
     <div>
        <div className="container pt-2 pb-5 m-auto">
-          <h1 className="text-center mb-5 display-4 fw-light">You Will Receive Your Payment In Below Mentioned Banks</h1>
+          <h1 className="text-center mb-5 display-4 fw-light">
+            <Editable page="home" field="withdraw_title" defaultHtml={"You Will Receive Your Payment In Below Mentioned Banks"} />
+          </h1>
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-3 col-6 justify-content-center py-2 d-flex align-items-center">
               <img style={{width:"100px"}} src="https://vectorseek.com/wp-content/uploads/2023/06/Easypaisa-Icon-Vector.jpg?width=320" alt="" className="card-img-top" />

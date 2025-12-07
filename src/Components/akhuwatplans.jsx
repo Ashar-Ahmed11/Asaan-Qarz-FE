@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect, useContext } from 'react'
+import Editable from './shared/Editable'
+import AppContext from './context/appContext'
 
 const AkhuwatPlans = () => {
     const color = "#108515"
+    const { ensurePageContent } = useContext(AppContext)
+    useEffect(() => { ensurePageContent('plans') }, [ensurePageContent])
     return (
         <div className='container' >
-            <h1 className='text-center py-5'><b>Akhuwat Foundation Loan Plans</b></h1>
+            <h1 className='text-center py-5'><b><Editable page="plans" field="plans_title" defaultHtml={"Akhuwat Foundation Loan Plans"} /></b></h1>
             
                 <div className="row">
                     {[
@@ -26,11 +30,11 @@ const AkhuwatPlans = () => {
                                     <h2 className="card-title text-center" style={{ fontWeight: "bold", color: color }}>
                                         Rs {plan.amount}
                                     </h2>
-                                    <h5>Installment</h5>
+                                    <h5><Editable page="plans" field="plans_installment_label" defaultHtml={"Installment"} /></h5>
                                     <h3>Rs {plan.installment}/month</h3>
                                 </div>
                                 <div className="card-footer text-center">
-                                    <h5>Repayment Period</h5>
+                                    <h5><Editable page="plans" field="plans_repayment_label" defaultHtml={"Repayment Period"} /></h5>
                                     <h3>{plan.period}</h3>
                                 </div>
                             </div>
@@ -39,27 +43,19 @@ const AkhuwatPlans = () => {
                 </div>
 
             
-            <h1 className='text-center py-3'><b>Note</b></h1>
+            <h1 className='text-center py-3'><b><Editable page="plans" field="plans_note_title" defaultHtml={"Note"} /></b></h1>
             <ul className="list-group pb-4">
                 <li className="py-3 list-group-item">
-                    <p className="h4 fw-normal">
-                        For loans less than 5,00,000 the registration fee is Rs 4,400 which you need to pay first.
-                    </p>
+                    <p className="h4 fw-normal"><Editable page="plans" field="plans_note_1" defaultHtml={"For loans less than 5,00,000 the registration fee is Rs 4,400 which you need to pay first."} /></p>
                 </li>
                 <li className="py-3 list-group-item">
-                    <p className="h4 fw-normal">
-                        For loans from 6,00,000 to 50,00,000 the registration fee is Rs 5,750 which you need to pay first.
-                    </p>
+                    <p className="h4 fw-normal"><Editable page="plans" field="plans_note_2" defaultHtml={"For loans from 6,00,000 to 50,00,000 the registration fee is Rs 5,750 which you need to pay first."} /></p>
                 </li>
                 <li className="py-3 list-group-item">
-                    <p className="h4 fw-normal">
-                        After depositing the registration fee, your loan will be approved by Akhuwat Foundation within 2 hours.
-                    </p>
+                    <p className="h4 fw-normal"><Editable page="plans" field="plans_note_3" defaultHtml={"After depositing the registration fee, your loan will be approved by Akhuwat Foundation within 2 hours."} /></p>
                 </li>
                 <li className="py-3 list-group-item">
-                    <p className="h4 fw-normal">
-                        The registration fee is refundable.
-                    </p>
+                    <p className="h4 fw-normal"><Editable page="plans" field="plans_note_4" defaultHtml={"The registration fee is refundable."} /></p>
                 </li>
             </ul>
 
