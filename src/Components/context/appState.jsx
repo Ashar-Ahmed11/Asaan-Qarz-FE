@@ -273,6 +273,76 @@ const mailSend = async (to) => {
 
   const isPageContentLoaded = (slug) => !!contentLoadedByPage[slug];
 
+  // Posts (blog-like)
+  const [posts, setPosts] = useState([])
+  const [postsLoaded, setPostsLoaded] = useState(false)
+  const [postsLoading, setPostsLoading] = useState(false)
+  const API_BASE = 'https://akhuwat-foundationalcms-dot-arched-gear-433017-u9.de.r.appspot.com/'
+  const [postById, setPostById] = useState({})
+
+  const fetchPosts = async () => {
+    try {
+      setPostsLoading(true)
+      const res = await fetch(`${API_BASE}/api/posts`, { headers: { Accept: '*' } })
+      const data = await res.json()
+      setPosts(Array.isArray(data) ? data : [])
+    } catch (e) {
+      console.error('fetchPosts error:', e)
+    } finally {
+      setPostsLoading(false); setPostsLoaded(true)
+    }
+  }
+
+  const createPostItem = async (title, description) => {
+    const res = await fetch(`${API_BASE}/api/posts`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'auth-token': adminToken },
+      body: JSON.stringify({ title, description })
+    })
+    const data = await res.json()
+    if (!res.ok) throw new Error(data?.error || 'Failed to create post')
+    setPosts((p)=> [data, ...p])
+    return data
+  }
+
+  const fetchPostById = async (id) => {
+    try {
+      const res = await fetch(`${API_BASE}/api/posts/${id}`, { headers: { Accept: '*' } })
+      const data = await res.json()
+      if (data && data._id) {
+        setPostById(prev => ({ ...prev, [id]: data }))
+        return data
+      }
+      return null
+    } catch (e) {
+      console.error('fetchPostById error:', e)
+      return null
+    }
+  }
+
+  const updatePostItem = async (id, title, description) => {
+    const res = await fetch(`${API_BASE}/api/posts/${id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', 'auth-token': adminToken },
+      body: JSON.stringify({ title, description })
+    })
+    const data = await res.json()
+    if (!res.ok) throw new Error(data?.error || 'Failed to update post')
+    setPosts((p)=> p.map(x=> x._id===id? data : x))
+    return data
+  }
+
+  const deletePostItem = async (id) => {
+    const res = await fetch(`${API_BASE}/api/posts/${id}`, {
+      method: 'DELETE',
+      headers: { 'auth-token': adminToken }
+    })
+    const data = await res.json()
+    if (!res.ok) throw new Error(data?.error || 'Failed to delete post')
+    setPosts((p)=> p.filter(x=> x._id!==id))
+    return true
+  }
+
   const [editLoader, setEditLoader] = useState(false)
 
   const editSiteInfo = async () => {
@@ -431,7 +501,7 @@ const mailSend = async (to) => {
 
     console.clear()
   return (
-    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, homeContent, homeLoaded, getHomeData, updateHomeData, contentByPage, contentLoadedByPage, getPageContent, updatePageContent, ensurePageContent, isPageContentLoaded, logoutAdmin: ()=>{ setAdminToken(null); setAdmin(false) } }}>
+    <AppContext.Provider value={{loadingNumber, createUserLoader, siteData, inputRef, fetchUserByCnic, users, fetchUsers, userData, setUserData, siteData, createUser, signIn, adminToken, admin, setAdminToken, editSiteInfo, setSiteData, editLoader, setEditLoader, loanStatusUpdation, handleFileUpdate, homeContent, homeLoaded, getHomeData, updateHomeData, contentByPage, contentLoadedByPage, getPageContent, updatePageContent, ensurePageContent, isPageContentLoaded, posts, postsLoaded, postsLoading, fetchPosts, fetchPostById, postById, createPostItem, updatePostItem, deletePostItem, logoutAdmin: ()=>{ setAdminToken(null); setAdmin(false) } }}>
       {props.children}
     </AppContext.Provider>
   )

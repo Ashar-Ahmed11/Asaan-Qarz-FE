@@ -73,7 +73,7 @@ const Editable = ({ page = 'home', field, defaultHtml = '', className = '' }) =>
               Edit Content
             </div>
             <div style={{ padding: 12 }}>
-              <JoditEditor value={value} onChange={setValue} />
+              <JoditEditor value={value} onBlur={setValue} />
             </div>
             <div style={{ padding: 12, borderTop: '1px solid #eee', display: 'flex', gap: 8, justifyContent: 'flex-end' }}>
               <button className="btn btn-light" onClick={() => setOpen(false)}>Cancel</button>

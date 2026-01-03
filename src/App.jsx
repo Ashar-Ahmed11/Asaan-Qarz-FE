@@ -12,6 +12,8 @@ import PrivacyPolicy from './Components/PrivacyPolicy';
 import TermsAndCondition from './Components/TermsAndCondition';
 import Disclaimer from './Components/Disclaimer';
 import ContactUS from './Components/contactUs';
+import Posts from './Components/Posts';
+import PostDetail from './Components/PostDetail';
 import {
 
   Switch,
@@ -73,6 +75,14 @@ const color = "#108515"
         <Route exact path="/">
           <MetaDecorator title="Akhuwat Foundation Loan Scheme: Easy 2025 Loan Apply" description="Akhuwat Foundation stands out as Pakistan’s only organization offering truly interest-free loans (Qarz-e-Hasna) to people in need." />
           <Home />
+        </Route>
+        <Route exact path="/posts">
+          <MetaDecorator title="Posts | Akhuwat Foundation Loan Scheme" description="Latest updates and posts." />
+          <Posts />
+        </Route>
+        <Route exact path="/posts/:id">
+          <MetaDecorator title="Post | Akhuwat Foundation Loan Scheme" description="Read the latest post." />
+          <PostDetail />
         </Route>
         <Route exact path="/success-story">
       <MetaDecorator title="Success Stories | Akhuwat Foundation Loan Scheme" description="This story reflects how Akhuwat Foundation Loans have transformed lives across Pakistan. From business owners to students and individuals facing financial hardships, the foundation has helped countless people turn their goals into reality." />
