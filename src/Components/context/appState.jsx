@@ -268,6 +268,8 @@ const mailSend = async (to) => {
 
   const ensurePageContent = async (slug) => {
     if (contentByPage[slug]) return contentByPage[slug];
+    // mark as loading so the ScreenLoader shows during client-side navigation
+    setContentLoadedByPage((prev) => ({ ...prev, [slug]: false }));
     return await getPageContent(slug);
   };
 
