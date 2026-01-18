@@ -226,6 +226,7 @@ const mailSend = async (to) => {
   // Generic per-page content storage
   const [contentByPage, setContentByPage] = useState({})
   const [contentLoadedByPage, setContentLoadedByPage] = useState({})
+  const contentFetchInFlightRef = useRef({})
 
   const getPageContent = async (slug) => {
     try {
@@ -268,9 +269,21 @@ const mailSend = async (to) => {
 
   const ensurePageContent = async (slug) => {
     if (contentByPage[slug]) return contentByPage[slug];
+    // if a fetch for this slug is already in-flight, reuse it to prevent duplicate requests
+    const inFlight = contentFetchInFlightRef.current[slug];
+    if (inFlight) return await inFlight;
     // mark as loading so the ScreenLoader shows during client-side navigation
     setContentLoadedByPage((prev) => ({ ...prev, [slug]: false }));
-    return await getPageContent(slug);
+    const fetchPromise = (async () => {
+      try {
+        return await getPageContent(slug);
+      } finally {
+        // cleanup in-flight tracker
+        delete contentFetchInFlightRef.current[slug];
+      }
+    })();
+    contentFetchInFlightRef.current[slug] = fetchPromise;
+    return await fetchPromise;
   };
 
   const isPageContentLoaded = (slug) => !!contentLoadedByPage[slug];
