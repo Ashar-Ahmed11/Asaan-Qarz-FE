@@ -7,6 +7,15 @@ import SuccessStory from './Components/successStory';
 import AkhuwatLoanService from './Components/akhuwatLoanService';
 import AkhuwatBussinessLoan from './Components/akhuwatBussinessLoan';
 import AkhuwatHouseLoan from './Components/akhuwatHouseLoan';
+import AkhuwatLoanHelpline from './Components/akhuwatFoundationHelpline';
+import AkhuwatLoanHeadOffice from './Components/akhuwatLoanHeadofficeNumber';
+import AkhuwatLoan2026 from './Components/akhuwatLoan2026';
+import AkhuwatLoanNetwork from './Components/akhuwatLoanNetwork';
+import AkhuwatFoundationHelpline from './Components/akhuwatFoundationHelpline';
+import AkhuwatLoanOnline from './Components/akhuwatLoanOnline';
+import AkhuwatLoanIslamabad from './Components/akhuwatLoanIslamabad';
+import AkhuwatOfficialNumber from './Components/akhuwatOfficialNumber';
+import AkhuwatLoanPeshawar from './Components/akhuwatLoanPeshawar';
 import AboutUs from './Components/aboutUs';
 import PrivacyPolicy from './Components/PrivacyPolicy';
 import TermsAndCondition from './Components/TermsAndCondition';
@@ -94,6 +103,85 @@ const color = "#108515"
 
           <AkhuwatLoanService />
         </Route>
+
+<Route exact path="/akhuwat-loan-helpline-number">
+  <MetaDecorator
+  title="Akhuwat Loan Helpline Number | Akhuwat Foundation Loan Scheme"
+  description="Find Akhuwat Foundation loan helpline numbers to get official guidance, eligibility details, and support for interest-free loan applications."
+/>
+  <AkhuwatLoanHelpline />
+</Route>
+
+<Route exact path="/akhuwat-loan-head-office-number">
+<MetaDecorator
+  title="Akhuwat Loan Head Office Number | Akhuwat Foundation Loan Scheme"
+  description="Get the official Akhuwat Foundation head office contact number for loan inquiries, verification, and organizational information."
+/>
+  <AkhuwatLoanHeadOffice />
+</Route>
+
+<Route exact path="/akhuwat-loan-2026">
+<MetaDecorator
+  title="Akhuwat Loan 2026 | Akhuwat Foundation Loan Scheme"
+  description="Discover the latest Akhuwat loan programs for 2026, including updated eligibility criteria, application process, and new financing opportunities."
+/>
+  <AkhuwatLoan2026 />
+</Route>
+
+<Route exact path="/akhuwat-loan-network">
+<MetaDecorator
+  title="Akhuwat Loan Network | Akhuwat Foundation Loan Scheme"
+  description="Explore Akhuwat Foundation’s loan network and branch coverage providing interest-free financial services in cities and rural areas of Pakistan."
+/>
+
+  <AkhuwatLoanNetwork />
+</Route>
+
+<Route exact path="/akhuwat-foundation-helpline">
+<MetaDecorator
+  title="Akhuwat Foundation Helpline | Akhuwat Foundation Loan Scheme"
+  description="Contact Akhuwat Foundation helpline for authentic information, loan assistance, and guidance related to interest-free financing programs."
+/>
+  <AkhuwatFoundationHelpline />
+</Route>
+
+<Route exact path="/akhuwat-loan-online">
+<MetaDecorator
+  title="Akhuwat Loan Online | Akhuwat Foundation Loan Scheme"
+  description="Understand how to apply for Akhuwat loans online, including step-by-step guidance, eligibility requirements, and document details."
+/>
+
+  <AkhuwatLoanOnline />
+</Route>
+
+<Route exact path="/akhuwat-loan-islamabad">
+<MetaDecorator
+  title="Akhuwat Loan Islamabad | Akhuwat Foundation Loan Scheme"
+  description="Get details about Akhuwat loan services in Islamabad, including branch locations, eligibility criteria, and interest-free financing options."
+/>
+
+  <AkhuwatLoanIslamabad />
+</Route>
+
+<Route exact path="/akhuwat-official-number">
+<MetaDecorator
+  title="Akhuwat Official Number | Akhuwat Foundation Loan Scheme"
+  description="Access verified Akhuwat Foundation official contact numbers to avoid misinformation and connect with authorized representatives."
+/>
+
+  <AkhuwatOfficialNumber />
+</Route>
+
+<Route exact path="/akhuwat-loan-peshawar">
+<MetaDecorator
+  title="Akhuwat Loan Peshawar | Akhuwat Foundation Loan Scheme"
+  description="Find complete information about Akhuwat loan programs in Peshawar, including branch access, application support, and eligibility details."
+/>
+
+  <AkhuwatLoanPeshawar />
+</Route>
+
+
         <Route exact path="/akhuwat-bussiness-loan">
         <MetaDecorator title="Akhuwat Business Loan | Akhuwat Foundation Loan Scheme" description="Starting or growing a business in Pakistan can be challenging, especially without access to funding. Akhuwat Foundation Business Loans provide interest-free financial support to help entrepreneurs overcome these barriers." />
 

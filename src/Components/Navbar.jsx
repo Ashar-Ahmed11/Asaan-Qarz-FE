@@ -35,6 +35,59 @@ const Navbar = () => {
   <ul className="dropdown-menu">
     <li><Link className="dropdown-item" to="/akhuwat-bussiness-loan">Akhuwat Foundation Business Loan</Link></li>
     <li><Link className="dropdown-item" to="/akhuwat-house-loan">Akhuwat Foundation House Loan</Link></li>
+    <li>
+  <Link className="dropdown-item" to="/akhuwat-loan-helpline-number">
+    Akhuwat Loan Helpline Number
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-head-office-number">
+    Akhuwat Loan Head Office Number
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-2026">
+    Akhuwat Loan 2026
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-network">
+    Akhuwat Loan Network
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-foundation-helpline">
+    Akhuwat Foundation Helpline
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-online">
+    Akhuwat Loan Online
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-islamabad">
+    Akhuwat Loan Islamabad
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-official-number">
+    Akhuwat Official Number
+  </Link>
+</li>
+
+<li>
+  <Link className="dropdown-item" to="/akhuwat-loan-peshawar">
+    Akhuwat Loan Peshawar
+  </Link>
+</li>
   </ul>
 </li>
 
